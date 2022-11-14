@@ -11,9 +11,19 @@ import software.amazon.awssdk.services.kinesis.model.PutRecordRequest;
 import software.amazon.awssdk.services.kinesis.model.PutRecordResponse;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 import com.example.kinesis.*;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
+
+import org.apache.commons.io.IOUtils;
+import org.json.*;
 
 public class MyKDS {
 
@@ -35,43 +45,79 @@ public class MyKDS {
 	public static void sendTestData(KinesisClient kinesisClient, String streamName) {
 
 		try {
-			// Repeatedly send stock trades with a 100 milliseconds wait in between.
+			// Repeatedly send xml documents with a 100 milliseconds wait in between.
 
-			// Put in 50 Records for this example.
+			File folder = new File("./input");
+			File[] listOfFiles = folder.listFiles();
+			for (int i = 0; i < listOfFiles.length; i++) {
+				if (listOfFiles[i].isFile()) {
+					System.out.println("File " + listOfFiles[i].getName());
+				} else if (listOfFiles[i].isDirectory()) {
+					System.out.println("Directory " + listOfFiles[i].getName());
+				}
+			}
+			// create some json and send to kinesis
+			File theFile;
 			int index = 2;
 			for (int x = 0; x < index; x++) {
-				String xyz = "this is a test: " + x;
-				sendTestDataString(xyz, kinesisClient, streamName);
-				Thread.sleep(100);
-			}
+				My990 m9 = new My990();
+				String data = null;
+				String xmlString = null;
+		
+				// get next xml file and embed into the message
+				theFile = listOfFiles[x];
+				
+				FileInputStream fis = new FileInputStream(theFile);
+			    data = IOUtils.toString(fis, "UTF-8");
+			    xmlString = data;
+				m9.setXmlText(xmlString);
+				byte[] bytes = m9.toJsonAsBytes();
+				
+				sendTestData(m9, kinesisClient, streamName);
 
+				String s = new String(bytes, StandardCharsets.UTF_8);
+				System.out.println("message is: " + s);
+				Thread.sleep(1000);
+			}
 		} catch (KinesisException | InterruptedException e) {
 			System.err.println(e.getMessage());
 			System.exit(1);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 		System.out.println("Done");
 	}
 
-	private static void sendTestDataString(String xyz, KinesisClient kinesisClient, String streamName) {
-		byte[] bytes = xyz.getBytes();
+	private static void sendTestData(My990 xyz, KinesisClient kinesisClient, String streamName) {
+
+		byte[] bytes = xyz.toJsonAsBytes();
 
 // The bytes could be null if there is an issue with the JSON serialization by the Jackson JSON library.
-		if (bytes == null) {
+		if (xyz == null) {
 			System.out.println("Could not get bytes for test");
 			return;
 		}
 
-		System.out.println("Putting test: " + xyz);
+		// System.out.println("Putting test: " + xyz);
 		UUID uuid = UUID.randomUUID();
-		PutRecordRequest request = PutRecordRequest.builder()
-	            .partitionKey(uuid.toString()) // We use the ticker symbol as the partition key, explained in the Supplemental Information section below.
-	            .streamName(streamName)
-	            .data(SdkBytes.fromByteArray(bytes))
-	            .build();
+		PutRecordRequest request = PutRecordRequest.builder().partitionKey(uuid.toString()) // We use the ticker symbol
+																							// as the partition key,
+																							// explained in the
+																							// Supplemental Information
+																							// section below.
+				.streamName(streamName).data(SdkBytes.fromByteArray(bytes)).build();
 		try {
-			System.out.println("here in put record...");
+			// System.out.println("here in put record...");		
+			DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+			LocalDateTime now = LocalDateTime.now();
+			System.out.println(dtf.format(now)); //2016/11/16 12:08:43
 			PutRecordResponse prr = kinesisClient.putRecord(request);
-			System.out.println("response is: " + prr.shardId());
+			System.out.println("response shard is: " + prr.shardId());
+			System.out.println("response seq is: " + prr.sequenceNumber());
 		} catch (KinesisException e) {
 			e.getMessage();
 		}
@@ -84,6 +130,8 @@ public class MyKDS {
 
 			DescribeStreamResponse describeStreamResponse = kinesisClient.describeStream(describeStreamRequest);
 
+			// System.out.println("status of the stream is: " +
+			// describeStreamResponse.responseMetadata());
 			if (!describeStreamResponse.streamDescription().streamStatus().toString().equals("ACTIVE")) {
 				System.err.println("Stream " + streamName + " is not active. Please wait a few moments and try again.");
 				System.exit(1);
