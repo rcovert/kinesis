@@ -70,6 +70,7 @@ public class MyKDS {
 				FileInputStream fis = new FileInputStream(theFile);
 			    data = IOUtils.toString(fis, "UTF-8");
 			    xmlString = data;
+			    data += "\n";
 				m9.setXmlText(xmlString);
 				byte[] bytes = m9.toJsonAsBytes();
 				
