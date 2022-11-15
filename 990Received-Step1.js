@@ -31,6 +31,7 @@ async function getItem(tid) {
 async function getS3Object() {
     try {
         // Get the object} from the Amazon S3 bucket. It is returned as a ReadableStream.
+        console.log('calling the s3 object');
         const data = await s3.getObject(bucket, key).promise();
         //console.log("Raw text:\n" + data.Body.toString('ascii'));
         // Convert the ReadableStream to a string.
@@ -38,7 +39,7 @@ async function getS3Object() {
     } catch (err) {
         console.log("Error", err);
     }
-};
+}
 
 exports.handler = async (event, context) => {
     //console.log('Received event:', JSON.stringify(event, null, 2));
