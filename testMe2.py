@@ -1,4 +1,6 @@
 import json
+import requests
+
 
 msg = """{ \"version\": \"0\", 
     \"id\": \"de7d7c09-7716-4cc7-a2cd-57e0650a5c59\",
@@ -14,7 +16,7 @@ yuh = "\"{ \\\"version\\\": \\\"0\\\", \\\"id\\\": de7d7c09-7716-4cc7-a2cd-57e06
 final_dictionary = eval(yuh)
 print("d type is: " )
 print(type(final_dictionary))
-n7 = eval(final_dictionary)
+#n7 = eval(final_dictionary)
 
 #td2 = eval(xyz)
 theDict = eval(msg)
@@ -46,7 +48,7 @@ x = """{
     }"""
   
 # parse x:
-y = json.loads(x)
+#y = json.loads(x)
 
 #jmsg = json.loads(msg)
 #print(type(jmsg))

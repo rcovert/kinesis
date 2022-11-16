@@ -58,7 +58,7 @@ public class MyKDS {
 			}
 			// create some json and send to kinesis
 			File theFile;
-			int index = 2;
+			int index = 4;
 			for (int x = 0; x < index; x++) {
 				My990 m9 = new My990();
 				String data = null;
@@ -70,15 +70,15 @@ public class MyKDS {
 				FileInputStream fis = new FileInputStream(theFile);
 			    data = IOUtils.toString(fis, "UTF-8");
 			    xmlString = data;
-			    data += "\n";
+			    //data += "\n";
 				m9.setXmlText(xmlString);
 				byte[] bytes = m9.toJsonAsBytes();
 				
 				sendTestData(m9, kinesisClient, streamName);
 
 				String s = new String(bytes, StandardCharsets.UTF_8);
-				System.out.println("message is: " + s);
-				Thread.sleep(1000);
+				System.out.println(x + " message is: " + s);
+				Thread.sleep(100);
 			}
 		} catch (KinesisException | InterruptedException e) {
 			System.err.println(e.getMessage());
