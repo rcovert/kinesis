@@ -58,7 +58,7 @@ public class MyKDS {
 			}
 			// create some json and send to kinesis
 			File theFile;
-			int index = 4;
+			int index = 5;
 			for (int x = 0; x < index; x++) {
 				My990 m9 = new My990();
 				String data = null;

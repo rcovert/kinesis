@@ -9,6 +9,7 @@ print('Loading function')
 s3 = boto3.client('s3')
 dyn = boto3.client('dynamodb')
 sns = boto3.client('sns')
+dyn2 = boto3.resource('dynamodb')
 
 def lambda_handler(event, context):
     #print("Received event: " + json.dumps(event, indent=2))
@@ -34,15 +35,10 @@ def lambda_handler(event, context):
         print('tdocdata is ', tdocdata)
         tkey = docdata["Item"]["key"]["S"]
         print("tkey is ", tkey)
-        #object_key = "hT3ThWld2OUf42163b7-d874-4295-a2cc-e360beab9eb0/KDS-S3-wAAJX-1-2022-11-16-17-35-26-feb82145-3e92-3ef7-beb0-5e181b04b7e2"
-        object_key = tkey
-        #object_key = tdocdata["key"]
-        #print('object_key is ', object_key)
+        
         # now grab the doc from s3
-        
         file_content = s3.get_object(
-            Bucket='test990-s3', Key=object_key)["Body"].read()
-        
+            Bucket='test990-s3', Key=tkey)["Body"].read()
         print(file_content)
         
         # now call a web service
@@ -54,7 +50,25 @@ def lambda_handler(event, context):
         
         # now update the dynamo record with new meta
         # now update the state of the object in dynamo with a state based results array
-        
+        table = dyn2.Table('test-990')
+        resp = table.update_item(
+            Key={
+                'uuid': theDocKey
+            },
+            UpdateExpression="set #last_update=:r, #filter_results=:a",
+            ExpressionAttributeNames={
+                '#last_update': 'last.update',
+                '#filter_results': 'filter.results'
+            },
+            ExpressionAttributeValues={
+                ':r': "11/17/2022",
+                ':a': ["Filter A", "G Score: .876", "Y Score: .654"]
+            },
+            ReturnValues="UPDATED_NEW"
+        )
+
+        print("UpdateItem succeeded:")
+        # print(json.dumps(resp, indent=4))
         
         # publish the event for the next compliance process
         

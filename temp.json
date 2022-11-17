@@ -1,0 +1,1959 @@
+{"Returns": [
+    {"Return": {
+        "returnVersion": "2019v5.0",
+        "ReturnHeader": {
+            "TaxPeriodEndDt": "2020-06-30",
+            "ReturnTs": "2020-10-17T19:37:33-05:00",
+            "BuildTS": "2021-01-29 14:40:06Z",
+            "TaxPeriodBeginDt": "2019-07-01",
+            "PreparerFirmGrp": {
+                "PreparerFirmName": {"BusinessNameLine1Txt": "William C Zukas Tax Acctg LLC"},
+                "PreparerUSAddress": {
+                    "ZIPCd": "02189",
+                    "CityNm": "Weymouth",
+                    "StateAbbreviationCd": "MA",
+                    "AddressLine1Txt": "1362 Washington St"
+                },
+                "PreparerFirmEIN": 824732684
+            },
+            "TaxYr": 2019,
+            "PreparerPersonGrp": {
+                "SelfEmployedInd": "X",
+                "PreparerPersonNm": "WILLIAM C ZUKAS",
+                "PhoneNum": 7813314767,
+                "PTIN": "P01054248",
+                "PreparationDt": "2020-10-17"
+            },
+            "BusinessOfficerGrp": {
+                "PersonNm": "KRISTEN STUART",
+                "PersonTitleTxt": "COPRESIDENT",
+                "DiscussWithPaidPreparerInd": true,
+                "PhoneNum": 6178995192,
+                "SignatureDt": "2020-10-17"
+            },
+            "binaryAttachmentCnt": 0,
+            "ReturnTypeCd": 990,
+            "FilingSecurityInformation": {
+                "FederalOriginalSubmissionId": "04855220202911207746",
+                "AtSubmissionCreationDeviceId": "14FE4F6FCFF705D2D3F57E9DBD83DFC582A6DD04",
+                "FederalOriginalSubmissionIdDt": "2020-10-17",
+                "FilingLicenseTypeCd": "P",
+                "IPAddress": {"IPv4AddressTxt": "97.97.47.41"},
+                "AtSubmissionFilingDeviceId": "14FE4F6FCFF705D2D3F57E9DBD83DFC582A6DD04"
+            },
+            "Filer": {
+                "BusinessName": {"BusinessNameLine1Txt": "RALPH TALBOT PRIMARY SCHOOL PARENT COUNCIL"},
+                "PhoneNum": 7813357250,
+                "BusinessNameControlTxt": "RALP",
+                "EIN": "043378826",
+                "USAddress": {
+                    "ZIPCd": "02190",
+                    "CityNm": "WEYMOUTH",
+                    "StateAbbreviationCd": "MA",
+                    "AddressLine1Txt": "277 RALPH TALBOT STREET"
+                },
+                "InCareOfNm": "% KRISTEN STUART"
+            }
+        },
+        "xmlns": "http://www.irs.gov/efile",
+        "ReturnData": {
+            "IRS990ScheduleO": {
+                "softwareId": 19009653,
+                "documentId": "IRS990ScheduleO-84-1",
+                "SupplementalInformationDetail": [
+                    {
+                        "FormAndLineReferenceDesc": "Part VI Line 11b",
+                        "ExplanationTxt": "COPIES AVAILABLE FOR REVIEW"
+                    },
+                    {
+                        "FormAndLineReferenceDesc": "Part VI Line 19",
+                        "ExplanationTxt": "DOCUMENTS ARE AVAILABLE FOR REVIEW"
+                    },
+                    {
+                        "FormAndLineReferenceDesc": "Part IX Line 24e",
+                        "ExplanationTxt": "DONATIONS Total expenses - $208.00 Program service expenses - $208.00 Mgmt and general expenses - $0.00 Fundraising expenses - $0.00"
+                    },
+                    {
+                        "FormAndLineReferenceDesc": "Part IX Line 24e",
+                        "ExplanationTxt": "SCHOLARSHIP Total expenses - $350.00 Program service expenses - $350.00 Mgmt and general expenses - $0.00 Fundraising expenses - $0.00"
+                    },
+                    {
+                        "FormAndLineReferenceDesc": "Part IX Line 24e",
+                        "ExplanationTxt": "SCHOOL EQUIP AND GIFTS Total expenses - $4807.00 Program service expenses - $4807.00 Mgmt and general expenses - $0.00 Fundraising expenses - $0.00"
+                    }
+                ],
+                "softwareVersionNum": "ta19mefv1.0"
+            },
+            "IRS990ScheduleA": {
+                "SupportedOrgInformationGrp": {
+                    "GoverningDocumentListedInd": false,
+                    "SupportAmt": 300,
+                    "EIN": "043378826",
+                    "OrganizationTypeCd": 2,
+                    "OtherSupportAmt": 0,
+                    "SupportedOrganizationName": {"BusinessNameLine1Txt": "Ralph Talbot School Parent"}
+                },
+                "MajorityDirTrstSupportedOrgInd": false,
+                "SupportingOrgType1Ind": "X",
+                "SupportedOrganizationsTotalCnt": 1,
+                "Form990ScheduleAPartVIGrp": {
+                    "FormAndLineReferenceDesc": "PART IV SEC A LINE 1",
+                    "ExplanationTxt": "THE PARENT COUNCIL SUPPORTS THE SCHOOL"
+                },
+                "OtherSupportSumAmt": 0,
+                "SupportSumAmt": 300,
+                "Form990SchAType1SuprtOrgGrp": {
+                    "OperateBenefitNonSuprtOrgInd": false,
+                    "PowerAppointMajorityDirTrstInd": false
+                },
+                "softwareId": 19009653,
+                "SupportedOrganizationsCnt": 1,
+                "SupportingOrganization509a3Ind": "X",
+                "Form990SchASupportingOrgGrp": {
+                    "ListedByNameGoverningDocInd": false,
+                    "SupportNonSupportedOrgInd": false,
+                    "PaymentSubstantialContribtrInd": false,
+                    "LoanDisqualifiedPersonInd": false,
+                    "ControlledDisqualifiedPrsnInd": false,
+                    "DisqualifiedPrsnControllIntInd": false,
+                    "OrganizationChangeSuprtOrgInd": false,
+                    "SupportedOrgSectionC456Ind": false,
+                    "SupportedOrgNotOrganizedUSInd": false,
+                    "SuprtOrgNoIRSDeterminationInd": false,
+                    "ContributionControllerInd": false,
+                    "ExcessBusinessHoldingsRulesInd": false,
+                    "ContributionFamilyInd": false,
+                    "DisqualifiedPrsnOwnrIntInd": false,
+                    "Contribution35ControlledInd": false
+                },
+                "IRSWrittenDeterminationInd": "X",
+                "documentId": "IRS990ScheduleA-57-1",
+                "softwareVersionNum": "ta19mefv1.0"
+            },
+            "IRS990ScheduleG": {
+                "softwareId": 19009653,
+                "documentId": "IRS990ScheduleG-69-1",
+                "softwareVersionNum": "ta19mefv1.0",
+                "FundraisingEventInformationGrp": {
+                    "OtherDirectExpensesEvent1Amt": 1586,
+                    "OtherDirectExpensesEvent2Amt": 2448,
+                    "GrossReceiptsEvent2Amt": 2448,
+                    "GrossReceiptsEvent1Amt": 7110,
+                    "GrossRevenueTotalEventsAmt": 20670,
+                    "NetIncomeSummaryAmt": 10041,
+                    "OthDirectExpnssOtherEventsAmt": 6595,
+                    "GrossReceiptsTotalAmt": 20670,
+                    "OthDirectExpnssTotalEventsAmt": 10629,
+                    "DirectExpenseSummaryEventsAmt": 10629,
+                    "GrossRevenueOtherEventsAmt": 11112,
+                    "GrossRevenueEvent1Amt": 7110,
+                    "GrossRevenueEvent2Amt": 2448,
+                    "Event2Nm": "BOOK FAIR",
+                    "Event1Nm": "CALENDAR",
+                    "GrossReceiptsOtherEventsAmt": 11112,
+                    "OtherEventsTotalCnt": 13
+                }
+            },
+            "documentCnt": 5,
+            "IRS990": {
+                "ChangeToOrgDocumentsInd": false,
+                "ExpenseAmt": 1586,
+                "FundraisingAmt": 22553,
+                "TotalAssetsGrp": {
+                    "EOYAmt": 16007,
+                    "BOYAmt": 15878
+                },
+                "TotalGrossUBIAmt": 0,
+                "ReportLandBuildingEquipmentInd": false,
+                "RelatedEntityInd": false,
+                "RelatedOrganizationCtrlEntInd": false,
+                "MoreThan5000KToIndividualsInd": false,
+                "GrantsToOrganizationsInd": {
+                    "referenceDocumentId": "IRS990ScheduleI-76-1",
+                    "content": true
+                },
+                "WhistleblowerPolicyInd": false,
+                "InvestmentInJointVentureInd": false,
+                "UnrelatedBusIncmOverLimitInd": false,
+                "PYRevenuesLessExpensesAmt": -2247,
+                "CashNonInterestBearingGrp": {
+                    "EOYAmt": 16007,
+                    "BOYAmt": 15878
+                },
+                "referenceDocumentId": "IRS990ScheduleO-83-1",
+                "VotingMembersGoverningBodyCnt": 0,
+                "ReportOtherAssetsInd": false,
+                "FeesForServicesAccountingGrp": {
+                    "ProgramServicesAmt": 335,
+                    "TotalAmt": 335
+                },
+                "CompensationProcessCEOInd": false,
+                "SignificantNewProgramSrvcInd": false,
+                "ScheduleORequiredInd": true,
+                "OrgDoesNotFollowFASB117Ind": "X",
+                "ProfessionalFundraisingInd": {
+                    "referenceDocumentId": "IRS990ScheduleG-69-1",
+                    "content": false
+                },
+                "TotalAssetsBOYAmt": 15878,
+                "OperateHospitalInd": false,
+                "NetIncmFromFundraisingEvtGrp": {"TotalRevenueColumnAmt": 0},
+                "CYProgramServiceRevenueAmt": 0,
+                "PYGrantsAndSimilarPaidAmt": 19219,
+                "DisregardedEntityInd": false,
+                "TotalFunctionalExpensesGrp": {
+                    "ProgramServicesAmt": 20204,
+                    "FundraisingAmt": 0,
+                    "TotalAmt": 20204,
+                    "ManagementAndGeneralAmt": 0
+                },
+                "TaxablePartyNotificationInd": false,
+                "NondeductibleContributionsInd": false,
+                "ForeignActivitiesInd": false,
+                "OfficeExpensesGrp": {
+                    "ProgramServicesAmt": 162,
+                    "TotalAmt": 162
+                },
+                "TotalNetAssetsFundBalanceGrp": {
+                    "EOYAmt": 16007,
+                    "BOYAmt": 15878
+                },
+                "AuditCommitteeInd": false,
+                "softwareVersionNum": "ta19mefv1.0",
+                "ForeignFinancialAccountInd": false,
+                "TotalContributionsAmt": 22803,
+                "CYTotalExpensesAmt": 20204,
+                "CYSalariesCompEmpBnftPaidAmt": 0,
+                "BusinessRlnWith35CtrlEntInd": false,
+                "GroupReturnForAffiliatesInd": false,
+                "CYOtherExpensesAmt": 5862,
+                "TotalCompGreaterThan150KInd": false,
+                "InvestmentIncomeGrp": {
+                    "TotalRevenueColumnAmt": 13,
+                    "RelatedOrExemptFuncIncomeAmt": 13
+                },
+                "ScheduleBRequiredInd": false,
+                "CYBenefitsPaidToMembersAmt": 0,
+                "TrnsfrExmptNonChrtblRltdOrgInd": false,
+                "PYExcessBenefitTransInd": false,
+                "FederalGrantAuditRequiredInd": false,
+                "RevenueAmt": 7110,
+                "ProhibitedTaxShelterTransInd": false,
+                "ConservationEasementsInd": false,
+                "EngagedInExcessBenefitTransInd": false,
+                "ActivityOrMissionDesc": "TO SUPPORT RALPH TALBOT SCHOOLS EDUCATIONAL CULTURAL AND OTHER MISCELLANEOUS SCHOOL PROGRAMS AND ACTIVITIES",
+                "GrantsToIndividualsInd": {
+                    "referenceDocumentId": "IRS990ScheduleI-76-1",
+                    "content": false
+                },
+                "EmployeeCnt": 0,
+                "GrantsToDomesticOrgsGrp": {
+                    "ProgramServicesAmt": 14342,
+                    "TotalAmt": 14342
+                },
+                "ProgSrvcAccomActy2Grp": {
+                    "ExpenseAmt": 2448,
+                    "Desc": "SCHOLASTIC BOOK FAIR",
+                    "RevenueAmt": 2448
+                },
+                "BusinessRlnWithFamMemInd": false,
+                "GrossReceiptsAmt": 22816,
+                "ForeignOfficeInd": false,
+                "PYOtherExpensesAmt": 10307,
+                "CompensationFromOtherSrcsInd": false,
+                "InfoInScheduleOPartIXInd": "X",
+                "TypeOfOrganizationAssocInd": "X",
+                "PYContributionsGrantsAmt": 27271,
+                "FormationYr": 1998,
+                "MaterialDiversionOrMisuseInd": false,
+                "AcctCompileOrReviewBasisGrp": {"SeparateBasisFinclStmtInd": "X"},
+                "PYTotalExpensesAmt": 29526,
+                "softwareId": 19009653,
+                "LoanOutstandingInd": false,
+                "DonorRstrOrQuasiEndowmentsInd": false,
+                "MembersOrStockholdersInd": false,
+                "CollectionsOfArtInd": false,
+                "DeductibleNonCashContriInd": false,
+                "MethodOfAccountingCashInd": "X",
+                "VotingMembersIndependentCnt": 0,
+                "IRPDocumentW2GCnt": 0,
+                "DecisionsSubjectToApprovaInd": false,
+                "Form990PartVIISectionAGrp": [
+                    {
+                        "PersonNm": "KRISTEN STUART",
+                        "OfficerInd": "X",
+                        "AverageHoursPerWeekRt": 4,
+                        "ReportableCompFromOrgAmt": 0,
+                        "ReportableCompFromRltdOrgAmt": 0,
+                        "TitleTxt": "COPRESIDENT",
+                        "OtherCompensationAmt": 0
+                    },
+                    {
+                        "PersonNm": "JULIE SHANAHAN",
+                        "OfficerInd": "X",
+                        "AverageHoursPerWeekRt": 4,
+                        "ReportableCompFromOrgAmt": 0,
+                        "ReportableCompFromRltdOrgAmt": 0,
+                        "TitleTxt": "COPRESIDENT",
+                        "OtherCompensationAmt": 0
+                    },
+                    {
+                        "PersonNm": "ERIN SERGI",
+                        "OfficerInd": "X",
+                        "AverageHoursPerWeekRt": 4,
+                        "ReportableCompFromOrgAmt": 0,
+                        "ReportableCompFromRltdOrgAmt": 0,
+                        "TitleTxt": "COVICE PRESIDENT",
+                        "OtherCompensationAmt": 0
+                    },
+                    {
+                        "PersonNm": "CAROLYN MCGRATH",
+                        "OfficerInd": "X",
+                        "AverageHoursPerWeekRt": 4,
+                        "ReportableCompFromOrgAmt": 0,
+                        "ReportableCompFromRltdOrgAmt": 0,
+                        "TitleTxt": "COVICE PRESIDENT",
+                        "OtherCompensationAmt": 0
+                    },
+                    {
+                        "PersonNm": "LAUREN TURBUSH",
+                        "OfficerInd": "X",
+                        "AverageHoursPerWeekRt": 4,
+                        "ReportableCompFromOrgAmt": 0,
+                        "ReportableCompFromRltdOrgAmt": 0,
+                        "TitleTxt": "SECRETARY",
+                        "OtherCompensationAmt": 0
+                    }
+                ],
+                "MinutesOfGoverningBodyInd": false,
+                "StatesWhereCopyOfReturnIsFldCd": "MA",
+                "DescribedInSection501c3Ind": {
+                    "referenceDocumentId": "IRS990ScheduleA-57-1",
+                    "content": true
+                },
+                "TotalLiabilitiesEOYAmt": 0,
+                "ReportOtherLiabilitiesInd": false,
+                "AllOtherContributionsAmt": 250,
+                "ReportInvestmentsOtherSecInd": false,
+                "MinutesOfCommitteesInd": false,
+                "LobbyingActivitiesInd": false,
+                "BusinessRlnWithOrgMemInd": false,
+                "IndoorTanningServicesInd": false,
+                "Desc": "CALENDAR FUNDRAISER",
+                "PYInvestmentIncomeAmt": 8,
+                "IndependentVotingMemberCnt": 0,
+                "CYRevenuesLessExpensesAmt": 2612,
+                "SubjectToProxyTaxInd": false,
+                "TerminateOperationsInd": false,
+                "MoreThan5000KToOrgInd": false,
+                "ConflictOfInterestPolicyInd": false,
+                "CompensationProcessOtherInd": false,
+                "TotalAssetsEOYAmt": 16007,
+                "FundraisingActivitiesInd": {
+                    "referenceDocumentId": "IRS990ScheduleG-69-1",
+                    "content": true
+                },
+                "TotalRevenueGrp": {
+                    "TotalRevenueColumnAmt": 22816,
+                    "RelatedOrExemptFuncIncomeAmt": 13
+                },
+                "SchoolOperatingInd": false,
+                "NetAssetsOrFundBalancesEOYAmt": 16007,
+                "GrantToRelatedPersonInd": false,
+                "WebsiteAddressTxt": "www.weymouthschools.org",
+                "NetAssetsOrFundBalancesBOYAmt": 15878,
+                "CYContributionsGrantsAmt": 22803,
+                "AllOtherExpensesGrp": {
+                    "ProgramServicesAmt": 5365,
+                    "TotalAmt": 5365
+                },
+                "FamilyOrBusinessRlnInd": false,
+                "PrincipalOfficerNm": "KRISTEN STUART",
+                "CapStkTrPrinCurrentFundsGrp": {
+                    "EOYAmt": 16007,
+                    "BOYAmt": 15878
+                },
+                "CYTotalProfFndrsngExpnsAmt": 0,
+                "TotLiabNetAssetsFundBalanceGrp": {
+                    "EOYAmt": 16007,
+                    "BOYAmt": 15878
+                },
+                "LegalDomicileStateCd": "MA",
+                "GamingActivitiesInd": {
+                    "referenceDocumentId": "IRS990ScheduleG-69-1",
+                    "content": false
+                },
+                "ReconcilationRevenueExpnssAmt": 2612,
+                "TotalLiabilitiesGrp": {
+                    "EOYAmt": 0,
+                    "BOYAmt": 0
+                },
+                "CYInvestmentIncomeAmt": 13,
+                "InfoInScheduleOPartVIInd": "X",
+                "PartialLiquidationInd": false,
+                "GoverningBodyVotingMembersCnt": 0,
+                "PYTotalRevenueAmt": 27279,
+                "SignificantChangeInd": false,
+                "SubjectToExcsTaxNetInvstIncInd": false,
+                "FormerOfcrEmployeesListedInd": false,
+                "CYGrantsAndSimilarPaidAmt": 14342,
+                "MissionDesc": "TO SUPPORT RALPH TALBOT SCHOOL'S EDUCATIONAL, CULTURAL AND OTHER MISCELLANEOUS SCHOOL PROGRAMS AND ACTIVITIES.",
+                "DonorAdvisedFundInd": false,
+                "OfficerMailingAddressInd": false,
+                "NoListedPersonsCompensatedInd": "X",
+                "FSAuditedInd": false,
+                "Organization501c3Ind": "X",
+                "Form990TFiledInd": false,
+                "IRPDocumentCnt": 0,
+                "SubjToTaxRmnrtnExPrchtPymtInd": false,
+                "ScheduleJRequiredInd": false,
+                "PoliticalCampaignActyInd": false,
+                "DelegationOfMgmtDutiesInd": false,
+                "IncludeFIN48FootnoteInd": false,
+                "BackupWthldComplianceInd": true,
+                "DeductibleArtContributionInd": false,
+                "BooksInCareOfDetail": {
+                    "PersonNm": "KRISTEN STUART",
+                    "PhoneNum": 6178995192,
+                    "USAddress": {
+                        "ZIPCd": "02190",
+                        "CityNm": "SOUTH WEYMOUTH",
+                        "StateAbbreviationCd": "MA",
+                        "AddressLine1Txt": "116 BURKHALL ST UNIT G"
+                    }
+                },
+                "CYTotalRevenueAmt": 22816,
+                "CYOtherRevenueAmt": 0,
+                "ReportProgramRelatedInvstInd": false,
+                "CreditCounselingInd": false,
+                "IndependentAuditFinclStmtInd": false,
+                "TotalEmployeeCnt": 0,
+                "TaxExemptBondsInd": false,
+                "ActivitiesConductedPrtshpInd": false,
+                "TotalProgramServiceExpensesAmt": 4821,
+                "AccountantCompileOrReviewInd": true,
+                "Form990ProvidedToGvrnBodyInd": true,
+                "DocumentRetentionPolicyInd": false,
+                "LocalChaptersInd": false,
+                "documentId": "IRS990-18-1",
+                "CYTotalFundraisingExpenseAmt": 0,
+                "ConsolidatedAuditFinclStmtInd": false,
+                "USAddress": {
+                    "ZIPCd": "02190",
+                    "CityNm": "SOUTH WEYMOUTH",
+                    "StateAbbreviationCd": "MA",
+                    "AddressLine1Txt": "116 BURKHALL ST UNIT G"
+                },
+                "ElectionOfBoardMembersInd": false,
+                "ProgSrvcAccomActy3Grp": {
+                    "ExpenseAmt": 787,
+                    "Desc": "TRIVIA NIGHT",
+                    "RevenueAmt": 2168
+                }
+            },
+            "IRS990ScheduleI": {
+                "GrantRecordsMaintainedInd": false,
+                "TotalOtherOrgCnt": 0,
+                "Total501c3OrgCnt": 0,
+                "softwareId": 19009653,
+                "documentId": "IRS990ScheduleI-76-1",
+                "SupplementalInformationDetail": {
+                    "FormAndLineReferenceDesc": "PART 1 LINE 2",
+                    "ExplanationTxt": "THE FUNDS ARE PROVIDED WHERE NEEDED OR REQUESTED"
+                },
+                "softwareVersionNum": "ta19mefv1.0"
+            }
+        },
+        "xsi:schemaLocation": "http://www.irs.gov/efile",
+        "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+    }},
+    {"Return": {
+        "returnVersion": "2019v5.0",
+        "ReturnHeader": {
+            "TaxPeriodEndDt": "2019-12-31",
+            "ReturnTs": "2020-10-18T21:24:36-05:00",
+            "BuildTS": "2021-01-29 14:40:06Z",
+            "TaxPeriodBeginDt": "2019-01-01",
+            "PreparerFirmGrp": {
+                "PreparerFirmName": {"BusinessNameLine1Txt": "Bestvalue Financial LLC"},
+                "PreparerUSAddress": {
+                    "ZIPCd": 55109,
+                    "CityNm": "Maplewood",
+                    "StateAbbreviationCd": "MN",
+                    "AddressLine1Txt": "2097 County Road D Suite A"
+                },
+                "PreparerFirmEIN": 460909033
+            },
+            "TaxYr": 2019,
+            "PreparerPersonGrp": {
+                "SelfEmployedInd": "X",
+                "PreparerPersonNm": "OLA O",
+                "PhoneNum": 6517575079,
+                "PTIN": "P01545902",
+                "PreparationDt": "2020-10-18"
+            },
+            "BusinessOfficerGrp": {
+                "PersonNm": "LANRE A OTUKOYA",
+                "PersonTitleTxt": "RESIDENT PASTOR",
+                "DiscussWithPaidPreparerInd": true,
+                "PhoneNum": 6124021495,
+                "SignatureDt": "2020-10-18"
+            },
+            "binaryAttachmentCnt": 0,
+            "ReturnTypeCd": 990,
+            "FilingSecurityInformation": {
+                "FederalOriginalSubmissionId": 41710620202921209065,
+                "AtSubmissionCreationDeviceId": "7357E43F983073043BCCE9198253982DEB2B3750",
+                "FederalOriginalSubmissionIdDt": "2020-10-18",
+                "FilingLicenseTypeCd": "P",
+                "IPAddress": {"IPv4AddressTxt": "96.67.166.150"},
+                "AtSubmissionFilingDeviceId": "7357E43F983073043BCCE9198253982DEB2B3750"
+            },
+            "Filer": {
+                "BusinessName": {"BusinessNameLine1Txt": "WINNERS CHAPEL INT MN"},
+                "PhoneNum": 6124021495,
+                "BusinessNameControlTxt": "WINN",
+                "EIN": 270369851,
+                "USAddress": {
+                    "ZIPCd": 55445,
+                    "CityNm": "BROOKLYN PARK",
+                    "StateAbbreviationCd": "MN",
+                    "AddressLine1Txt": "6400 85TH AVENUE N"
+                },
+                "InCareOfNm": "% LANRE A OTUKOYA"
+            }
+        },
+        "xmlns": "http://www.irs.gov/efile",
+        "ReturnData": {
+            "IRS990ScheduleO": {
+                "softwareId": 19009653,
+                "documentId": "IRS990ScheduleO-84-1",
+                "SupplementalInformationDetail": [
+                    {
+                        "FormAndLineReferenceDesc": "Part VI Line 11b",
+                        "ExplanationTxt": "CHURCH FINANCIAL SECRETARY REVIEWED THE PREPARED FORM 990 BEFORME IT WAS"
+                    },
+                    {
+                        "FormAndLineReferenceDesc": "Part VI Line 11b",
+                        "ExplanationTxt": "FILED WITH THE IRS. REVIEWED COVERED ALL THE CONTRIBUTIONS & EXPENSES WINNE"
+                    },
+                    {
+                        "FormAndLineReferenceDesc": "Part VI Line 19",
+                        "ExplanationTxt": "ERS CHAPEL INT MN MADE ITS GOVERNING DOCUMENTS AVAILABLE TO THE"
+                    },
+                    {
+                        "FormAndLineReferenceDesc": "Part VI Line 19",
+                        "ExplanationTxt": "GENERAL PUBLIC ACCORDING TO THE CHURCH BY LAWS."
+                    }
+                ],
+                "softwareVersionNum": "ta19mefv1.0"
+            },
+            "IRS990ScheduleB": {
+                "softwareId": 19009653,
+                "documentId": "IRS990ScheduleB-64-1",
+                "ContributorInformationGrp": {
+                    "TotalContributionsAmt": "RESTRICTED",
+                    "ContributorNum": "RESTRICTED",
+                    "ContributorBusinessName": {"BusinessNameLine1": "RESTRICTED"},
+                    "ContributorUSAddress": {
+                        "AddressLine2": "RESTRICTED",
+                        "AddressLine1": "RESTRICTED",
+                        "ZIPCode": "RESTRICTED",
+                        "State": "RESTRICTED",
+                        "City": "RESTRICTED"
+                    }
+                },
+                "softwareVersionNum": "ta19mefv1.0"
+            },
+            "IRS990ScheduleA": {
+                "ChurchInd": "X",
+                "softwareId": 19009653,
+                "documentId": "IRS990ScheduleA-57-1",
+                "softwareVersionNum": "ta19mefv1.0"
+            },
+            "documentCnt": 4,
+            "IRS990": {
+                "ChangeToOrgDocumentsInd": false,
+                "ExpenseAmt": 322260,
+                "TotalAssetsGrp": {
+                    "EOYAmt": 417197,
+                    "BOYAmt": 82779
+                },
+                "TotalGrossUBIAmt": 0,
+                "ReportLandBuildingEquipmentInd": false,
+                "RelatedEntityInd": false,
+                "RelatedOrganizationCtrlEntInd": false,
+                "PoliciesReferenceChaptersInd": true,
+                "InfoInScheduleOPartIIIInd": "X",
+                "MoreThan5000KToIndividualsInd": false,
+                "GrantsToOrganizationsInd": false,
+                "WhistleblowerPolicyInd": true,
+                "InvestmentInJointVentureInd": false,
+                "UnrelatedBusIncmOverLimitInd": false,
+                "PYRevenuesLessExpensesAmt": -7308,
+                "CashNonInterestBearingGrp": {
+                    "EOYAmt": 417197,
+                    "BOYAmt": 82779
+                },
+                "referenceDocumentId": "IRS990ScheduleO-83-1",
+                "VotingMembersGoverningBodyCnt": 0,
+                "ReportOtherAssetsInd": false,
+                "CompensationProcessCEOInd": true,
+                "SignificantNewProgramSrvcInd": false,
+                "ScheduleORequiredInd": true,
+                "ProfessionalFundraisingInd": false,
+                "TotalAssetsBOYAmt": 82779,
+                "OperateHospitalInd": false,
+                "NetIncmFromFundraisingEvtGrp": {"TotalRevenueColumnAmt": 0},
+                "CYProgramServiceRevenueAmt": 0,
+                "DisregardedEntityInd": false,
+                "TotalFunctionalExpensesGrp": {
+                    "ProgramServicesAmt": 322260,
+                    "FundraisingAmt": 0,
+                    "TotalAmt": 462301,
+                    "ManagementAndGeneralAmt": 140041
+                },
+                "FeesForServicesManagementGrp": {
+                    "TotalAmt": 140041,
+                    "ManagementAndGeneralAmt": 140041
+                },
+                "TaxablePartyNotificationInd": false,
+                "NondeductibleContributionsInd": false,
+                "ForeignActivitiesInd": false,
+                "TotalNetAssetsFundBalanceGrp": {
+                    "EOYAmt": 417197,
+                    "BOYAmt": 82779
+                },
+                "softwareVersionNum": "ta19mefv1.0",
+                "InfoInScheduleOPartXIIInd": "X",
+                "ForeignFinancialAccountInd": false,
+                "TotalContributionsAmt": 799719,
+                "CYTotalExpensesAmt": 462301,
+                "CYSalariesCompEmpBnftPaidAmt": 0,
+                "BusinessRlnWith35CtrlEntInd": false,
+                "GroupReturnForAffiliatesInd": false,
+                "CYOtherExpensesAmt": 462301,
+                "TotalCompGreaterThan150KInd": false,
+                "ScheduleBRequiredInd": {
+                    "referenceDocumentId": "IRS990ScheduleB-64-1",
+                    "content": true
+                },
+                "CYBenefitsPaidToMembersAmt": 0,
+                "TrnsfrExmptNonChrtblRltdOrgInd": false,
+                "PYExcessBenefitTransInd": false,
+                "FederalGrantAuditRequiredInd": false,
+                "ProhibitedTaxShelterTransInd": false,
+                "ConservationEasementsInd": false,
+                "EngagedInExcessBenefitTransInd": false,
+                "ActivityOrMissionDesc": "CHURCH ORGANIZATION",
+                "GrantsToIndividualsInd": false,
+                "InfoInScheduleOPartXIInd": "X",
+                "EmployeeCnt": 0,
+                "BusinessRlnWithFamMemInd": false,
+                "GrossReceiptsAmt": 799719,
+                "ForeignOfficeInd": false,
+                "PYOtherExpensesAmt": 782050,
+                "CompensationFromOtherSrcsInd": false,
+                "InfoInScheduleOPartIXInd": "X",
+                "PYContributionsGrantsAmt": 774742,
+                "FormationYr": 2009,
+                "MaterialDiversionOrMisuseInd": false,
+                "PYTotalExpensesAmt": 782050,
+                "NoDonorRestrictionNetAssetsGrp": {
+                    "EOYAmt": 417197,
+                    "BOYAmt": 82779
+                },
+                "softwareId": 19009653,
+                "LoanOutstandingInd": false,
+                "DonorRstrOrQuasiEndowmentsInd": false,
+                "MembersOrStockholdersInd": false,
+                "CollectionsOfArtInd": false,
+                "DeductibleNonCashContriInd": false,
+                "InfoInScheduleOPartVIIIInd": "X",
+                "MethodOfAccountingCashInd": "X",
+                "VotingMembersIndependentCnt": 0,
+                "InfoInScheduleOPartXInd": "X",
+                "IRPDocumentW2GCnt": 0,
+                "AnnualDisclosureCoveredPrsnInd": true,
+                "DecisionsSubjectToApprovaInd": false,
+                "Form990PartVIISectionAGrp": {
+                    "PersonNm": "LANRE OTUKOYA",
+                    "OfficerInd": "X",
+                    "AverageHoursPerWeekRt": 8,
+                    "ReportableCompFromOrgAmt": 0,
+                    "ReportableCompFromRltdOrgAmt": 0,
+                    "TitleTxt": "RESIDENT PASTOR",
+                    "OtherCompensationAmt": 0
+                },
+                "MinutesOfGoverningBodyInd": true,
+                "StatesWhereCopyOfReturnIsFldCd": "MN",
+                "DescribedInSection501c3Ind": {
+                    "referenceDocumentId": "IRS990ScheduleA-57-1",
+                    "content": true
+                },
+                "TotalLiabilitiesEOYAmt": 0,
+                "ReportOtherLiabilitiesInd": false,
+                "AllOtherContributionsAmt": 799719,
+                "ReportInvestmentsOtherSecInd": false,
+                "MinutesOfCommitteesInd": true,
+                "LobbyingActivitiesInd": false,
+                "BusinessRlnWithOrgMemInd": false,
+                "IndoorTanningServicesInd": false,
+                "Desc": "PAYMENT FOR CHURCH SPACE RENT AT 6400 AND 8633",
+                "IndependentVotingMemberCnt": 0,
+                "CYRevenuesLessExpensesAmt": 337418,
+                "SubjectToProxyTaxInd": false,
+                "TerminateOperationsInd": false,
+                "MoreThan5000KToOrgInd": false,
+                "ConflictOfInterestPolicyInd": true,
+                "CompensationProcessOtherInd": true,
+                "TotalAssetsEOYAmt": 417197,
+                "FundraisingActivitiesInd": false,
+                "TotalRevenueGrp": {"TotalRevenueColumnAmt": 799719},
+                "SchoolOperatingInd": false,
+                "OtherExpensesGrp": {
+                    "Desc": "Church Space Rent-6400&8633",
+                    "ProgramServicesAmt": 322260,
+                    "TotalAmt": 322260
+                },
+                "TypeOfOrganizationCorpInd": "X",
+                "NetAssetsOrFundBalancesEOYAmt": 417197,
+                "GrantToRelatedPersonInd": false,
+                "WebsiteAddressTxt": "http://www.winnerschapelmn.org/",
+                "NetAssetsOrFundBalancesBOYAmt": 82779,
+                "CYContributionsGrantsAmt": 799719,
+                "FamilyOrBusinessRlnInd": false,
+                "CYTotalProfFndrsngExpnsAmt": 0,
+                "RegularMonitoringEnfrcInd": true,
+                "TotLiabNetAssetsFundBalanceGrp": {
+                    "EOYAmt": 417197,
+                    "BOYAmt": 82779
+                },
+                "LegalDomicileStateCd": "MN",
+                "OrganizationFollowsFASB117Ind": "X",
+                "GamingActivitiesInd": false,
+                "ReconcilationRevenueExpnssAmt": 337418,
+                "TotalLiabilitiesGrp": {
+                    "EOYAmt": 0,
+                    "BOYAmt": 0
+                },
+                "CYInvestmentIncomeAmt": 0,
+                "InfoInScheduleOPartVIInd": "X",
+                "PartialLiquidationInd": false,
+                "GoverningBodyVotingMembersCnt": 0,
+                "PYTotalRevenueAmt": 774742,
+                "SignificantChangeInd": false,
+                "SubjectToExcsTaxNetInvstIncInd": false,
+                "FormerOfcrEmployeesListedInd": false,
+                "CYGrantsAndSimilarPaidAmt": 0,
+                "MissionDesc": "CHURCH ORGANIZATION",
+                "DonorAdvisedFundInd": false,
+                "OfficerMailingAddressInd": false,
+                "NoListedPersonsCompensatedInd": "X",
+                "FSAuditedInd": false,
+                "Organization501c3Ind": "X",
+                "Form990TFiledInd": false,
+                "IRPDocumentCnt": 0,
+                "SubjToTaxRmnrtnExPrchtPymtInd": false,
+                "ScheduleJRequiredInd": false,
+                "PoliticalCampaignActyInd": false,
+                "DelegationOfMgmtDutiesInd": false,
+                "IncludeFIN48FootnoteInd": false,
+                "BackupWthldComplianceInd": true,
+                "DeductibleArtContributionInd": false,
+                "BooksInCareOfDetail": {
+                    "BusinessName": {"BusinessNameLine1Txt": "WINNER CHAPEL INT MN"},
+                    "PhoneNum": 6124021495,
+                    "USAddress": {
+                        "ZIPCd": 55445,
+                        "CityNm": "BROOKLYN PARK",
+                        "StateAbbreviationCd": "MN",
+                        "AddressLine1Txt": "6400 85TH AVENUE N"
+                    }
+                },
+                "CYTotalRevenueAmt": 799719,
+                "CYOtherRevenueAmt": 0,
+                "ReportProgramRelatedInvstInd": false,
+                "PrincipalOfcrBusinessName": {"BusinessNameLine1Txt": "WINNER CHAPEL INT MN"},
+                "CreditCounselingInd": false,
+                "IndependentAuditFinclStmtInd": false,
+                "TotalEmployeeCnt": 0,
+                "TaxExemptBondsInd": false,
+                "ActivitiesConductedPrtshpInd": false,
+                "TotalProgramServiceExpensesAmt": 322260,
+                "AccountantCompileOrReviewInd": false,
+                "Form990ProvidedToGvrnBodyInd": true,
+                "DocumentRetentionPolicyInd": true,
+                "LocalChaptersInd": true,
+                "documentId": "IRS990-18-1",
+                "CYTotalFundraisingExpenseAmt": 0,
+                "ConsolidatedAuditFinclStmtInd": false,
+                "USAddress": {
+                    "ZIPCd": 55445,
+                    "CityNm": "BROOKLYN PARK",
+                    "StateAbbreviationCd": "MN",
+                    "AddressLine1Txt": "6400 85TH AVENUE N"
+                },
+                "ElectionOfBoardMembersInd": false
+            }
+        },
+        "xsi:schemaLocation": "http://www.irs.gov/efile",
+        "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+    }},
+    {"Return": {
+        "returnVersion": "2019v5.1",
+        "ReturnHeader": {
+            "TaxPeriodEndDt": "2019-12-31",
+            "ReturnTs": "2020-10-17T02:17:20-00:00",
+            "BuildTS": "2021-01-29 14:40:06Z",
+            "TaxPeriodBeginDt": "2019-01-01",
+            "PreparerFirmGrp": {
+                "PreparerFirmName": {"BusinessNameLine1Txt": "Judith Ann Kellogg CPA"},
+                "PreparerUSAddress": {
+                    "ZIPCd": 20854,
+                    "CityNm": "Potomac",
+                    "StateAbbreviationCd": "MD",
+                    "AddressLine1Txt": "10629 Rock Run Drive"
+                }
+            },
+            "TaxYr": 2019,
+            "PreparerPersonGrp": {
+                "SelfEmployedInd": "X",
+                "PreparerPersonNm": "Judith Ann Kellogg",
+                "PhoneNum": 3019836157,
+                "PreparationDt": "2020-10-17"
+            },
+            "BusinessOfficerGrp": {
+                "PersonNm": "Jane Byerley",
+                "PersonTitleTxt": "Executive Director",
+                "DiscussWithPaidPreparerInd": true,
+                "SignatureDt": "2020-10-17"
+            },
+            "binaryAttachmentCnt": 0,
+            "ReturnTypeCd": 990,
+            "FilingSecurityInformation": {
+                "IPTm": "18:11:50",
+                "AtSubmissionCreationDeviceId": "6AFC5F849617647277346DD475883DA67A6FDD5E",
+                "IPDt": "2020-10-17",
+                "FilingLicenseTypeCd": "P",
+                "IPAddress": {"IPv4AddressTxt": "69.255.236.88"},
+                "IPTimezoneCd": "ED",
+                "AtSubmissionFilingDeviceId": "6AFC5F849617647277346DD475883DA67A6FDD5E"
+            },
+            "Filer": {
+                "BusinessName": {"BusinessNameLine1Txt": "Jung Society of Washington"},
+                "PhoneNum": 2022378109,
+                "BusinessNameControlTxt": "JUNG",
+                "EIN": 521520617,
+                "USAddress": {
+                    "ZIPCd": 200162665,
+                    "CityNm": "Washington",
+                    "StateAbbreviationCd": "DC",
+                    "AddressLine1Txt": "5200 Cathedral Avenue NW"
+                }
+            }
+        },
+        "xmlns": "http://www.irs.gov/efile",
+        "ReturnData": {
+            "IRS990ScheduleO": {
+                "softwareId": 19009610,
+                "documentId": "990O",
+                "SupplementalInformationDetail": [
+                    {
+                        "FormAndLineReferenceDesc": "Form 990, Part VI, Section B, Line 11b",
+                        "ExplanationTxt": "Return is reviewed by executive director."
+                    },
+                    {
+                        "FormAndLineReferenceDesc": "Form 990, Part VI, Section C, Line 19",
+                        "ExplanationTxt": "Governing documentsand internally prepared financial statements are available upon request."
+                    },
+                    {
+                        "FormAndLineReferenceDesc": "Form 990, Part IX, Line 11g",
+                        "ExplanationTxt": "Fees for 17 professional outside speakers who taught courses for the organization."
+                    }
+                ],
+                "softwareVersionNum": "19.2.1.0"
+            },
+            "IRS990ScheduleD": {
+                "OtherLiabilitiesOrgGrp": {"Desc": "Federal income taxes"},
+                "InclEscrowCustodialAcctLiabInd": false,
+                "softwareId": 19009610,
+                "TotalBookValueLandBuildingsAmt": 6087,
+                "OtherSecuritiesGrp": [
+                    {"Desc": "Financial derivatives and other financial products"},
+                    {"Desc": "Closely-held equity interests"}
+                ],
+                "EquipmentGrp": {
+                    "OtherCostOrOtherBasisAmt": 25993,
+                    "DepreciationAmt": 19906,
+                    "BookValueAmt": 6087
+                },
+                "documentId": "990D",
+                "softwareVersionNum": "19.2.1.0"
+            },
+            "IRS990ScheduleB": {
+                "softwareId": 19009610,
+                "documentId": "990B",
+                "ContributorInformationGrp": {
+                    "TotalContributionsAmt": "RESTRICTED",
+                    "ContributorNum": "RESTRICTED",
+                    "ContributorBusinessName": {"BusinessNameLine1": "RESTRICTED"},
+                    "ContributorUSAddress": {
+                        "AddressLine2": "RESTRICTED",
+                        "AddressLine1": "RESTRICTED",
+                        "ZIPCode": "RESTRICTED",
+                        "State": "RESTRICTED",
+                        "City": "RESTRICTED"
+                    }
+                },
+                "softwareVersionNum": "19.2.1.0"
+            },
+            "IRS990ScheduleA": {
+                "PublicSupportTotal170Amt": 0,
+                "PublicSupportCY509Pct": 0.5486,
+                "PublicSupportCY170Pct": 0,
+                "NetIncomeFromOtherUBIGrp": {"TotalAmt": 0},
+                "AmountsRcvdDsqlfyPersonGrp": {
+                    "CurrentTaxYearMinus3YearsAmt": 104200,
+                    "CurrentTaxYearMinus2YearsAmt": 104200,
+                    "TotalAmt": 444738,
+                    "CurrentTaxYearAmt": 95538,
+                    "CurrentTaxYearMinus4YearsAmt": 95700,
+                    "CurrentTaxYearMinus1YearAmt": 45100
+                },
+                "Post1975UBTIGrp": {"TotalAmt": 0},
+                "Total509Grp": {
+                    "CurrentTaxYearMinus3YearsAmt": 204542,
+                    "CurrentTaxYearMinus2YearsAmt": 215889,
+                    "TotalAmt": 1071119,
+                    "CurrentTaxYearAmt": 258553,
+                    "CurrentTaxYearMinus4YearsAmt": 181342,
+                    "CurrentTaxYearMinus1YearAmt": 210793
+                },
+                "PublicSupportTotal509Amt": 604381,
+                "OtherIncome509Grp": {"TotalAmt": 0},
+                "SubstantialContributorsAmtGrp": {
+                    "CurrentTaxYearMinus3YearsAmt": 10000,
+                    "CurrentTaxYearMinus2YearsAmt": 12000,
+                    "TotalAmt": 22000
+                },
+                "SubstAndDsqlfyPrsnsTotGrp": {
+                    "CurrentTaxYearMinus3YearsAmt": 114200,
+                    "CurrentTaxYearMinus2YearsAmt": 116200,
+                    "TotalAmt": 466738,
+                    "CurrentTaxYearAmt": 95538,
+                    "CurrentTaxYearMinus4YearsAmt": 95700,
+                    "CurrentTaxYearMinus1YearAmt": 45100
+                },
+                "ThirtyThrPctSuprtTestsCY509Ind": "X",
+                "PublicSupportPY509Pct": 0.5114,
+                "GrossReceiptsAdmissionsGrp": {
+                    "CurrentTaxYearMinus3YearsAmt": 58510,
+                    "CurrentTaxYearMinus2YearsAmt": 76180,
+                    "TotalAmt": 415007,
+                    "CurrentTaxYearAmt": 120185,
+                    "CurrentTaxYearMinus4YearsAmt": 70217,
+                    "CurrentTaxYearMinus1YearAmt": 89915
+                },
+                "softwareId": 19009610,
+                "GiftsGrantsContrisRcvd509Grp": {
+                    "CurrentTaxYearMinus3YearsAmt": 145547,
+                    "CurrentTaxYearMinus2YearsAmt": 139384,
+                    "TotalAmt": 655302,
+                    "CurrentTaxYearAmt": 138368,
+                    "CurrentTaxYearMinus4YearsAmt": 111125,
+                    "CurrentTaxYearMinus1YearAmt": 120878
+                },
+                "InvestmentIncomePYPct": 0.0292,
+                "PubliclySupportedOrg509a2Ind": "X",
+                "InvestmentIncomeCYPct": 0.0278,
+                "documentId": "990A",
+                "GrossReceiptsNonUnrltBusGrp": {
+                    "CurrentTaxYearMinus3YearsAmt": 485,
+                    "CurrentTaxYearMinus2YearsAmt": 325,
+                    "TotalAmt": 810
+                },
+                "softwareVersionNum": "19.2.1.0",
+                "GrossInvestmentIncome509Grp": {
+                    "CurrentTaxYearMinus3YearsAmt": 4477,
+                    "CurrentTaxYearMinus2YearsAmt": 6010,
+                    "TotalAmt": 30646,
+                    "CurrentTaxYearAmt": 5937,
+                    "CurrentTaxYearMinus4YearsAmt": 5278,
+                    "CurrentTaxYearMinus1YearAmt": 8944
+                },
+                "TotalSupportCalendarYearGrp": {
+                    "CurrentTaxYearMinus3YearsAmt": 209019,
+                    "CurrentTaxYearMinus2YearsAmt": 221899,
+                    "TotalAmt": 1101765,
+                    "CurrentTaxYearAmt": 264490,
+                    "CurrentTaxYearMinus4YearsAmt": 186620,
+                    "CurrentTaxYearMinus1YearAmt": 219737
+                },
+                "InvestmentIncomeAndUBTIGrp": {
+                    "CurrentTaxYearMinus3YearsAmt": 4477,
+                    "CurrentTaxYearMinus2YearsAmt": 6010,
+                    "TotalAmt": 30646,
+                    "CurrentTaxYearAmt": 5937,
+                    "CurrentTaxYearMinus4YearsAmt": 5278,
+                    "CurrentTaxYearMinus1YearAmt": 8944
+                }
+            },
+            "documentCnt": 5,
+            "IRS990": {
+                "TotalAssetsGrp": {
+                    "EOYAmt": 205762,
+                    "BOYAmt": 153516
+                },
+                "RelatedOrganizationCtrlEntInd": false,
+                "MoreThan5000KToIndividualsInd": false,
+                "GrantsToOrganizationsInd": false,
+                "MembershipDuesAmt": 11184,
+                "OnBehalfOfIssuerInd": false,
+                "VotingMembersGoverningBodyCnt": 11,
+                "FeesForServicesAccountingGrp": {
+                    "TotalAmt": 2990,
+                    "ManagementAndGeneralAmt": 2990
+                },
+                "TotalProgramServiceRevenueAmt": 120185,
+                "CompensationProcessCEOInd": false,
+                "PaymentsToAffiliatesGrp": {"TotalAmt": 0},
+                "ProfessionalFundraisingInd": false,
+                "FeesForServicesLegalGrp": {"TotalAmt": 0},
+                "TotalAssetsBOYAmt": 153516,
+                "CYProgramServiceRevenueAmt": 120185,
+                "EmploymentTaxReturnsFiledInd": true,
+                "ConferencesMeetingsGrp": {"TotalAmt": 0},
+                "PYGrantsAndSimilarPaidAmt": 10000,
+                "QuidProQuoContributionsInd": false,
+                "DisregardedEntityInd": false,
+                "TotalFunctionalExpensesGrp": {
+                    "ProgramServicesAmt": 125869,
+                    "FundraisingAmt": 8189,
+                    "TotalAmt": 211761,
+                    "ManagementAndGeneralAmt": 77703
+                },
+                "InterestGrp": {"TotalAmt": 0},
+                "TaxablePartyNotificationInd": false,
+                "PymtTravelEntrtnmntPubOfclGrp": {"TotalAmt": 0},
+                "softwareVersionNum": "19.2.1.0",
+                "LandBldgEquipBasisNetGrp": {
+                    "EOYAmt": 6087,
+                    "BOYAmt": 5156
+                },
+                "ForeignFinancialAccountInd": false,
+                "TotalContributionsAmt": 138368,
+                "CYTotalExpensesAmt": 211761,
+                "CYSalariesCompEmpBnftPaidAmt": 117764,
+                "CYOtherExpensesAmt": 93997,
+                "InvestmentIncomeGrp": {"TotalRevenueColumnAmt": 5937},
+                "CYBenefitsPaidToMembersAmt": 0,
+                "PYExcessBenefitTransInd": false,
+                "ProhibitedTaxShelterTransInd": false,
+                "ConservationEasementsInd": false,
+                "ActivityOrMissionDesc": "Provide education about theories and principles of analytical psychology which have grown from the writing of Dr. Carl Jung.",
+                "EmployeeCnt": 5,
+                "GrantsToDomesticOrgsGrp": {"TotalAmt": 0},
+                "TravelGrp": {"TotalAmt": 0},
+                "BusinessRlnWithFamMemInd": false,
+                "BenefitsToMembersGrp": {"TotalAmt": 0},
+                "ForeignOfficeInd": false,
+                "PYOtherExpensesAmt": 110968,
+                "InfoInScheduleOPartIXInd": "X",
+                "CompCurrentOfcrDirectorsGrp": {
+                    "ProgramServicesAmt": 44536,
+                    "FundraisingAmt": 7500,
+                    "TotalAmt": 64536,
+                    "ManagementAndGeneralAmt": 12500
+                },
+                "OccupancyGrp": {
+                    "ProgramServicesAmt": 1905,
+                    "TotalAmt": 26913,
+                    "ManagementAndGeneralAmt": 25008
+                },
+                "AccountsPayableAccrExpnssGrp": {
+                    "EOYAmt": 2209,
+                    "BOYAmt": 2692
+                },
+                "PYContributionsGrantsAmt": 120878,
+                "MaterialDiversionOrMisuseInd": false,
+                "PYTotalExpensesAmt": 232377,
+                "softwareId": 19009610,
+                "LoanOutstandingInd": false,
+                "DonorRstrOrQuasiEndowmentsInd": false,
+                "MembersOrStockholdersInd": true,
+                "VotingMembersIndependentCnt": 11,
+                "MinutesOfGoverningBodyInd": true,
+                "DescribedInSection501c3Ind": {
+                    "referenceDocumentId": "990A",
+                    "content": true
+                },
+                "ReportInvestmentsOtherSecInd": false,
+                "IndoorTanningServicesInd": false,
+                "ForeignGrantsGrp": {"TotalAmt": 0},
+                "OtherSalariesAndWagesGrp": {
+                    "ProgramServicesAmt": 21727,
+                    "FundraisingAmt": 184,
+                    "TotalAmt": 46856,
+                    "ManagementAndGeneralAmt": 24945
+                },
+                "Desc": "Hold lectures, seminars workshops about the theories principles of analytical psychology which have grown from the writing of Dr. Carl Jung. About 800 people attended the programs. Open to the general public.",
+                "PYInvestmentIncomeAmt": 8944,
+                "IndependentVotingMemberCnt": 11,
+                "SubjectToProxyTaxInd": false,
+                "MoreThan5000KToOrgInd": false,
+                "TotalAssetsEOYAmt": 205762,
+                "SchoolOperatingInd": false,
+                "NetAssetsOrFundBalancesEOYAmt": 203553,
+                "WebsiteAddressTxt": "www.jung.org",
+                "AllOtherExpensesGrp": {"TotalAmt": 0},
+                "FeesForSrvcInvstMgmntFeesGrp": {
+                    "TotalAmt": 960,
+                    "ManagementAndGeneralAmt": 960
+                },
+                "FamilyOrBusinessRlnInd": false,
+                "InvestmentsPubTradedSecGrp": {
+                    "EOYAmt": 108241,
+                    "BOYAmt": 102305
+                },
+                "PrincipalOfficerNm": "James Hollis Executive Director",
+                "TotLiabNetAssetsFundBalanceGrp": {
+                    "EOYAmt": 205762,
+                    "BOYAmt": 153516
+                },
+                "LegalDomicileStateCd": "DC",
+                "OrganizationFollowsFASB117Ind": "X",
+                "GamingActivitiesInd": false,
+                "TotalLiabilitiesGrp": {
+                    "EOYAmt": 2209,
+                    "BOYAmt": 2692
+                },
+                "CYInvestmentIncomeAmt": 5937,
+                "InfoInScheduleOPartVIInd": "X",
+                "PartialLiquidationInd": false,
+                "GoverningBodyVotingMembersCnt": 11,
+                "PYTotalRevenueAmt": 219737,
+                "InsuranceGrp": {
+                    "TotalAmt": 2555,
+                    "ManagementAndGeneralAmt": 2555
+                },
+                "SignificantChangeInd": false,
+                "SubjectToExcsTaxNetInvstIncInd": false,
+                "TotalLiabilitiesBOYAmt": 2692,
+                "FormerOfcrEmployeesListedInd": false,
+                "CYGrantsAndSimilarPaidAmt": 0,
+                "DonorAdvisedFundInd": false,
+                "FSAuditedInd": false,
+                "Organization501c3Ind": "X",
+                "Form990TFiledInd": false,
+                "IRPDocumentCnt": 21,
+                "LandBldgEquipCostOrOtherBssAmt": 27494,
+                "InformationTechnologyGrp": {
+                    "ProgramServicesAmt": 4713,
+                    "TotalAmt": 5013,
+                    "ManagementAndGeneralAmt": 300
+                },
+                "IncludeFIN48FootnoteInd": false,
+                "DeductibleArtContributionInd": false,
+                "BooksInCareOfDetail": {
+                    "PersonNm": "Jane Byerley",
+                    "PhoneNum": 2022378109,
+                    "USAddress": {
+                        "ZIPCd": 200162665,
+                        "CityNm": "Washington",
+                        "StateAbbreviationCd": "DC",
+                        "AddressLine1Txt": "5200 Cathedral Avenue NW"
+                    }
+                },
+                "CYOtherRevenueAmt": 0,
+                "PYProgramServiceRevenueAmt": 89915,
+                "ReportProgramRelatedInvstInd": false,
+                "TotalEmployeeCnt": 5,
+                "TaxExemptBondsInd": false,
+                "ActivitiesConductedPrtshpInd": false,
+                "AccountantCompileOrReviewInd": false,
+                "EscrowAccountInd": false,
+                "DocumentRetentionPolicyInd": false,
+                "documentId": 990,
+                "CYTotalFundraisingExpenseAmt": 8189,
+                "USAddress": {
+                    "ZIPCd": 20016,
+                    "CityNm": "Washington",
+                    "StateAbbreviationCd": "DC",
+                    "AddressLine1Txt": "5200 Cathedral Avenue NW"
+                },
+                "FeesForServicesOtherGrp": {
+                    "ProgramServicesAmt": 38576,
+                    "TotalAmt": 38576
+                },
+                "ChangeToOrgDocumentsInd": false,
+                "UponRequestInd": "X",
+                "ExpenseAmt": 116328,
+                "TotalGrossUBIAmt": 0,
+                "ReportLandBuildingEquipmentInd": {
+                    "referenceDocumentId": "990D",
+                    "content": true
+                },
+                "RelatedEntityInd": false,
+                "PYSalariesCompEmpBnftPaidAmt": 111409,
+                "Form8282PropertyDisposedOfInd": false,
+                "WhistleblowerPolicyInd": false,
+                "InvestmentInJointVentureInd": false,
+                "UnrelatedBusIncmOverLimitInd": false,
+                "PYRevenuesLessExpensesAmt": -12640,
+                "FeesForServicesProfFundraising": "",
+                "CashNonInterestBearingGrp": {
+                    "EOYAmt": 90634,
+                    "BOYAmt": 45255
+                },
+                "ReportOtherAssetsInd": false,
+                "SignificantNewProgramSrvcInd": false,
+                "ScheduleORequiredInd": true,
+                "PayPremiumsPrsnlBnftCntrctInd": false,
+                "OperateHospitalInd": false,
+                "InvestTaxExemptBondsInd": false,
+                "FeesForServicesManagementGrp": {
+                    "TotalAmt": 2700,
+                    "ManagementAndGeneralAmt": 2700
+                },
+                "ProgramServiceRevenueGrp": {
+                    "Desc": "Admission to programs, courses, etc",
+                    "BusinessCd": 611710,
+                    "TotalRevenueColumnAmt": 120185
+                },
+                "NondeductibleContributionsInd": false,
+                "ForeignActivitiesInd": false,
+                "OfficeExpensesGrp": {"TotalAmt": 0},
+                "TotalNetAssetsFundBalanceGrp": {
+                    "EOYAmt": 203553,
+                    "BOYAmt": 150824
+                },
+                "TotalVolunteersCnt": 12,
+                "BusinessRlnWith35CtrlEntInd": false,
+                "GroupReturnForAffiliatesInd": false,
+                "TotalCompGreaterThan150KInd": false,
+                "ScheduleBRequiredInd": {
+                    "referenceDocumentId": "990B",
+                    "content": true
+                },
+                "TrnsfrExmptNonChrtblRltdOrgInd": false,
+                "FederalGrantAuditRequiredInd": false,
+                "RevenueAmt": 120185,
+                "EngagedInExcessBenefitTransInd": false,
+                "GrantsToIndividualsInd": false,
+                "LandBldgEquipAccumDeprecAmt": 21407,
+                "ProgSrvcAccomActy2Grp": {
+                    "ExpenseAmt": 9541,
+                    "Desc": "Provide education and information about the theories and principles of analytical psychology through a website and issuance of a newsletter 3000 copies which includes book reviews and information about local and worldwide programs."
+                },
+                "GrossReceiptsAmt": 264490,
+                "CompensationFromOtherSrcsInd": false,
+                "CompDisqualPersonsGrp": {"TotalAmt": 0},
+                "FormationYr": 1984,
+                "NoDonorRestrictionNetAssetsGrp": {
+                    "EOYAmt": 203553,
+                    "BOYAmt": 150824
+                },
+                "CollectionsOfArtInd": false,
+                "DeductibleNonCashContriInd": false,
+                "MethodOfAccountingCashInd": "X",
+                "IRPDocumentW2GCnt": 0,
+                "DecisionsSubjectToApprovaInd": false,
+                "Form990PartVIISectionAGrp": [
+                    {
+                        "PersonNm": "James Hollis",
+                        "IndividualTrusteeOrDirectorInd": "X",
+                        "AverageHoursPerWeekRt": 12,
+                        "ReportableCompFromOrgAmt": 39536,
+                        "KeyEmployeeInd": "X",
+                        "ReportableCompFromRltdOrgAmt": 0,
+                        "TitleTxt": "Exec Dir Jan-June",
+                        "OtherCompensationAmt": 0
+                    },
+                    {
+                        "PersonNm": "Jane Byerley",
+                        "AverageHoursPerWeekRt": 12,
+                        "ReportableCompFromOrgAmt": 25000,
+                        "KeyEmployeeInd": "X",
+                        "ReportableCompFromRltdOrgAmt": 0,
+                        "TitleTxt": "Exec Dir July-Dec",
+                        "OtherCompensationAmt": 0
+                    },
+                    {
+                        "PersonNm": "Erminia Scarcella",
+                        "OfficerInd": "X",
+                        "IndividualTrusteeOrDirectorInd": "X",
+                        "ReportableCompFromOrgAmt": 0,
+                        "ReportableCompFromRltdOrgAmt": 0,
+                        "TitleTxt": "Secretary",
+                        "OtherCompensationAmt": 0
+                    },
+                    {
+                        "PersonNm": "April Barrett",
+                        "OfficerInd": "X",
+                        "IndividualTrusteeOrDirectorInd": "X",
+                        "AverageHoursPerWeekRt": 10,
+                        "ReportableCompFromOrgAmt": 0,
+                        "ReportableCompFromRltdOrgAmt": 0,
+                        "TitleTxt": "President",
+                        "OtherCompensationAmt": 0
+                    },
+                    {
+                        "PersonNm": "John King",
+                        "OfficerInd": "X",
+                        "IndividualTrusteeOrDirectorInd": "X",
+                        "ReportableCompFromOrgAmt": 0,
+                        "ReportableCompFromRltdOrgAmt": 0,
+                        "TitleTxt": "Vice Pres Treasurer",
+                        "OtherCompensationAmt": 0
+                    },
+                    {
+                        "PersonNm": "Greg Canty",
+                        "IndividualTrusteeOrDirectorInd": "X",
+                        "ReportableCompFromOrgAmt": 0,
+                        "ReportableCompFromRltdOrgAmt": 0,
+                        "TitleTxt": "Director",
+                        "OtherCompensationAmt": 0
+                    },
+                    {
+                        "PersonNm": "Melanie Costello",
+                        "IndividualTrusteeOrDirectorInd": "X",
+                        "ReportableCompFromOrgAmt": 0,
+                        "ReportableCompFromRltdOrgAmt": 0,
+                        "TitleTxt": "Director",
+                        "OtherCompensationAmt": 0
+                    },
+                    {
+                        "PersonNm": "Kenneth LaPlante",
+                        "IndividualTrusteeOrDirectorInd": "X",
+                        "ReportableCompFromOrgAmt": 0,
+                        "ReportableCompFromRltdOrgAmt": 0,
+                        "TitleTxt": "Director",
+                        "OtherCompensationAmt": 0
+                    },
+                    {
+                        "PersonNm": "Pat Silbert",
+                        "IndividualTrusteeOrDirectorInd": "X",
+                        "ReportableCompFromOrgAmt": 0,
+                        "ReportableCompFromRltdOrgAmt": 0,
+                        "TitleTxt": "Director",
+                        "OtherCompensationAmt": 0
+                    },
+                    {
+                        "PersonNm": "Anne Warren",
+                        "IndividualTrusteeOrDirectorInd": "X",
+                        "ReportableCompFromOrgAmt": 0,
+                        "ReportableCompFromRltdOrgAmt": 0,
+                        "TitleTxt": "Director",
+                        "OtherCompensationAmt": 0
+                    },
+                    {
+                        "PersonNm": "Art Delibert",
+                        "IndividualTrusteeOrDirectorInd": "X",
+                        "ReportableCompFromOrgAmt": 0,
+                        "ReportableCompFromRltdOrgAmt": 0,
+                        "TitleTxt": "Director",
+                        "OtherCompensationAmt": 0
+                    },
+                    {
+                        "PersonNm": "Jean Hencerotrh",
+                        "IndividualTrusteeOrDirectorInd": "X",
+                        "ReportableCompFromOrgAmt": 0,
+                        "ReportableCompFromRltdOrgAmt": 0,
+                        "TitleTxt": "Director",
+                        "OtherCompensationAmt": 0
+                    }
+                ],
+                "TotalReportableCompFromOrgAmt": 64536,
+                "TotalLiabilitiesEOYAmt": 2209,
+                "ReportOtherLiabilitiesInd": false,
+                "AllOtherContributionsAmt": 127184,
+                "MinutesOfCommitteesInd": true,
+                "RcvFndsToPayPrsnlBnftCntrctInd": false,
+                "LobbyingActivitiesInd": false,
+                "BusinessRlnWithOrgMemInd": false,
+                "CYRevenuesLessExpensesAmt": 52729,
+                "TerminateOperationsInd": false,
+                "ConflictOfInterestPolicyInd": false,
+                "CompensationProcessOtherInd": false,
+                "DepreciationDepletionGrp": {
+                    "TotalAmt": 928,
+                    "ManagementAndGeneralAmt": 928
+                },
+                "PensionPlanContributionsGrp": {"TotalAmt": 0},
+                "FundraisingActivitiesInd": false,
+                "TotalRevenueGrp": {"TotalRevenueColumnAmt": 264490},
+                "OtherExpensesGrp": [
+                    {
+                        "Desc": "Bank SC, Credit Cd fees, Pay Pal Fees",
+                        "ProgramServicesAmt": 330,
+                        "TotalAmt": 555,
+                        "ManagementAndGeneralAmt": 225
+                    },
+                    {
+                        "Desc": "Printing, Postage, Delivery",
+                        "ProgramServicesAmt": 1119,
+                        "TotalAmt": 1540,
+                        "ManagementAndGeneralAmt": 421
+                    },
+                    {
+                        "Desc": "Program Expenses",
+                        "ProgramServicesAmt": 7148,
+                        "TotalAmt": 7148
+                    },
+                    {
+                        "Desc": "Supplies",
+                        "ProgramServicesAmt": 1763,
+                        "TotalAmt": 3470,
+                        "ManagementAndGeneralAmt": 1707
+                    }
+                ],
+                "TypeOfOrganizationCorpInd": "X",
+                "GrantToRelatedPersonInd": false,
+                "NetAssetsOrFundBalancesBOYAmt": 150824,
+                "CYContributionsGrantsAmt": 138368,
+                "CYTotalProfFndrsngExpnsAmt": 0,
+                "ReconcilationRevenueExpnssAmt": 52729,
+                "RoyaltiesGrp": {"TotalAmt": 0},
+                "AdvertisingGrp": {
+                    "ProgramServicesAmt": 649,
+                    "TotalAmt": 649
+                },
+                "MissionDesc": "Provide education about theories and principles of analytical psychology which have grown from the writing of Dr. Carl Jung.",
+                "OfficerMailingAddressInd": false,
+                "SubjToTaxRmnrtnExPrchtPymtInd": false,
+                "ScheduleJRequiredInd": false,
+                "PoliticalCampaignActyInd": false,
+                "DelegationOfMgmtDutiesInd": false,
+                "BackupWthldComplianceInd": true,
+                "PayrollTaxesGrp": {
+                    "ProgramServicesAmt": 3403,
+                    "FundraisingAmt": 505,
+                    "TotalAmt": 6372,
+                    "ManagementAndGeneralAmt": 2464
+                },
+                "CYTotalRevenueAmt": 264490,
+                "GrantsToDomesticIndividualsGrp": {"TotalAmt": 0},
+                "CreditCounselingInd": false,
+                "IndependentAuditFinclStmtInd": false,
+                "OtherAssetsTotalGrp": {
+                    "EOYAmt": 800,
+                    "BOYAmt": 800
+                },
+                "OtherEmployeeBenefitsGrp": {"TotalAmt": 0},
+                "TotalProgramServiceExpensesAmt": 125869,
+                "Form990ProvidedToGvrnBodyInd": false,
+                "LocalChaptersInd": false,
+                "ConsolidatedAuditFinclStmtInd": false,
+                "FeesForServicesLobbyingGrp": {"TotalAmt": 0},
+                "ElectionOfBoardMembersInd": false
+            }
+        },
+        "xsi:schemaLocation": "http://www.irs.gov/efile",
+        "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+    }},
+    {"Return": {
+        "returnVersion": "2019v5.1",
+        "ReturnHeader": {
+            "TaxPeriodEndDt": "2020-06-30",
+            "ReturnTs": "2020-10-18T18:25:43-04:00",
+            "BuildTS": "2021-01-29 14:40:06Z",
+            "TaxPeriodBeginDt": "2019-07-01",
+            "PreparerFirmGrp": {
+                "PreparerFirmName": {"BusinessNameLine1Txt": "SALVATORE S IAVARONE CPA"},
+                "PreparerUSAddress": {
+                    "ZIPCd": 12065,
+                    "CityNm": "Clifton Park",
+                    "StateAbbreviationCd": "NY",
+                    "AddressLine1Txt": "6 Willowbrook Terrace"
+                },
+                "PreparerFirmEIN": 811180626
+            },
+            "TaxYr": 2019,
+            "PreparerPersonGrp": {
+                "PreparerPersonNm": "Salvatore S Iavarone CPA",
+                "PhoneNum": 5186641016,
+                "PTIN": "P00118458",
+                "PreparationDt": "2020-10-18"
+            },
+            "BusinessOfficerGrp": {
+                "PersonNm": "JANET BERGERON",
+                "PersonTitleTxt": "PRESIDENT",
+                "DiscussWithPaidPreparerInd": true,
+                "PhoneNum": 5186645988,
+                "SignatureDt": "2020-10-18"
+            },
+            "binaryAttachmentCnt": 0,
+            "ReturnTypeCd": 990,
+            "FilingSecurityInformation": {
+                "IPTm": "18:27:42",
+                "FederalOriginalSubmissionId": "14036120202922lvajni",
+                "AtSubmissionCreationDeviceId": "74C6AC82F155615E577F9375511F2D290D6F338C",
+                "FederalOriginalSubmissionIdDt": "2020-10-18",
+                "IPDt": "2020-10-18",
+                "FilingLicenseTypeCd": "P",
+                "IPAddress": {"IPv4AddressTxt": "74.69.13.137"},
+                "AtSubmissionFilingDeviceId": "74C6AC82F155615E577F9375511F2D290D6F338C"
+            },
+            "Filer": {
+                "BusinessName": {"BusinessNameLine1Txt": "CHILDREN AT HEART ADOPTION SVCS INC"},
+                "BusinessNameControlTxt": "CHIL",
+                "EIN": 141783554,
+                "USAddress": {
+                    "ZIPCd": 28401,
+                    "CityNm": "WILMINGTON",
+                    "StateAbbreviationCd": "NC",
+                    "AddressLine1Txt": "254 NORTH FRONT STREET SUITE 200"
+                }
+            }
+        },
+        "xmlns": "http://www.irs.gov/efile",
+        "ReturnData": {
+            "IRS990ScheduleO": {
+                "documentId": "990O",
+                "SupplementalInformationDetail": [
+                    {
+                        "FormAndLineReferenceDesc": "Officer directors etc family relationship Part VI line 2",
+                        "ExplanationTxt": "THE ORGANIZATION LEASED A NORTH CAROLINA OFFIC FOR $10,800 FOR THE YEAR FROM THE OFFICERS."
+                    },
+                    {
+                        "FormAndLineReferenceDesc": "Form 990 governing body review Part VI line 11",
+                        "ExplanationTxt": "THE GOVERNING BODY REVIEWED THE TAX RETURN"
+                    },
+                    {
+                        "FormAndLineReferenceDesc": "Governing documents etc available to public Part VI line 19",
+                        "ExplanationTxt": "ALL GOVERNING DOCUMENTS ARE AVAILABE TO THE GENERAL PUBLIC"
+                    }
+                ]
+            },
+            "IRS990ScheduleD": {
+                "OtherLiabilitiesOrgGrp": [
+                    {
+                        "Desc": "PAYROLL TAX PAYABLE",
+                        "Amt": 2394
+                    },
+                    {
+                        "Desc": "ACCRUED EXPENSE",
+                        "Amt": 2062
+                    }
+                ],
+                "TotalLiabilityAmt": 4456,
+                "LandGrp": {
+                    "OtherCostOrOtherBasisAmt": 43387,
+                    "BookValueAmt": 43387
+                },
+                "TotalBookValueLandBuildingsAmt": 58373,
+                "EquipmentGrp": {
+                    "OtherCostOrOtherBasisAmt": 91109,
+                    "DepreciationAmt": 91109
+                },
+                "TotalBookValueOtherAssetsAmt": 800,
+                "documentId": "990D",
+                "OtherLandBuildingsGrp": {
+                    "OtherCostOrOtherBasisAmt": 43094,
+                    "DepreciationAmt": 28108,
+                    "BookValueAmt": 14986
+                },
+                "OtherAssetsOrgGrp": {
+                    "Desc": "DEPOSIT",
+                    "BookValueAmt": 800
+                }
+            },
+            "IRS990ScheduleC": {
+                "GrantsOtherOrganizationsInd": false,
+                "RalliesDemonstrationsInd": false,
+                "MailingsMembersInd": false,
+                "PaidStaffOrManagementInd": false,
+                "OtherActivitiesInd": false,
+                "VolunteersInd": false,
+                "documentId": "990C",
+                "MediaAdvertisementsInd": false,
+                "DirectContactLegislatorsInd": false,
+                "PublicationsOrBroadcastInd": false
+            },
+            "IRS990ScheduleA": {
+                "PublicSupportPY509Pct": 1,
+                "GrossReceiptsAdmissionsGrp": {
+                    "CurrentTaxYearMinus3YearsAmt": 199389,
+                    "CurrentTaxYearMinus2YearsAmt": 189759,
+                    "TotalAmt": 1006045,
+                    "CurrentTaxYearAmt": 159969,
+                    "CurrentTaxYearMinus4YearsAmt": 296615,
+                    "CurrentTaxYearMinus1YearAmt": 160313
+                },
+                "GiftsGrantsContrisRcvd509Grp": {
+                    "CurrentTaxYearMinus3YearsAmt": 2991,
+                    "CurrentTaxYearMinus2YearsAmt": 12163,
+                    "TotalAmt": 42761,
+                    "CurrentTaxYearAmt": 11786,
+                    "CurrentTaxYearMinus4YearsAmt": 5738,
+                    "CurrentTaxYearMinus1YearAmt": 10083
+                },
+                "Total509Grp": {
+                    "CurrentTaxYearMinus3YearsAmt": 202380,
+                    "CurrentTaxYearMinus2YearsAmt": 201922,
+                    "TotalAmt": 1048806,
+                    "CurrentTaxYearAmt": 171755,
+                    "CurrentTaxYearMinus4YearsAmt": 302353,
+                    "CurrentTaxYearMinus1YearAmt": 170396
+                },
+                "InvestmentIncomePYPct": 0,
+                "PublicSupportTotal509Amt": 1048806,
+                "PubliclySupportedOrg509a2Ind": "X",
+                "InvestmentIncomeCYPct": 0,
+                "documentId": "990A",
+                "PublicSupportCY509Pct": 1,
+                "ThirtyThrPctSuprtTestsCY509Ind": "X",
+                "TotalSupportCalendarYearGrp": {
+                    "CurrentTaxYearMinus3YearsAmt": 202380,
+                    "CurrentTaxYearMinus2YearsAmt": 201922,
+                    "TotalAmt": 1048806,
+                    "CurrentTaxYearAmt": 171755,
+                    "CurrentTaxYearMinus4YearsAmt": 302353,
+                    "CurrentTaxYearMinus1YearAmt": 170396
+                }
+            },
+            "documentCnt": 6,
+            "IRS990ScheduleL": {
+                "BusTrInvolveInterestedPrsnGrp": {
+                    "NameOfInterested": {"PersonNm": "JANICE BERGERON"},
+                    "SharingOfRevenuesInd": false,
+                    "TransactionAmt": 10800,
+                    "RelationshipDescriptionTxt": "OFFICER",
+                    "TransactionDesc": "RENT FOR 1 LOCATION"
+                },
+                "documentId": "990L"
+            },
+            "IRS990": {
+                "ChangeToOrgDocumentsInd": false,
+                "UponRequestInd": "X",
+                "ExpenseAmt": 159700,
+                "TransactionWithControlEntInd": false,
+                "TotalAssetsGrp": {
+                    "EOYAmt": 181019,
+                    "BOYAmt": 110533
+                },
+                "TotalGrossUBIAmt": 0,
+                "ReportLandBuildingEquipmentInd": {
+                    "referenceDocumentId": "990D",
+                    "content": true
+                },
+                "RelatedEntityInd": false,
+                "PYSalariesCompEmpBnftPaidAmt": 93494,
+                "RelatedOrganizationCtrlEntInd": false,
+                "Form8282PropertyDisposedOfInd": false,
+                "MoreThan5000KToIndividualsInd": false,
+                "GrantsToOrganizationsInd": false,
+                "WhistleblowerPolicyInd": true,
+                "InvestmentInJointVentureInd": false,
+                "UnrelatedBusIncmOverLimitInd": false,
+                "PYRevenuesLessExpensesAmt": -10093,
+                "CashNonInterestBearingGrp": {
+                    "EOYAmt": 120320,
+                    "BOYAmt": 41013
+                },
+                "VotingMembersGoverningBodyCnt": 2,
+                "ReportOtherAssetsInd": false,
+                "FeesForServicesAccountingGrp": {
+                    "TotalAmt": 1450,
+                    "ManagementAndGeneralAmt": 1450
+                },
+                "MortgNotesPyblScrdInvstPropGrp": {
+                    "EOYAmt": 15119,
+                    "BOYAmt": 21167
+                },
+                "TotalProgramServiceRevenueAmt": 159969,
+                "CompensationProcessCEOInd": false,
+                "SignificantNewProgramSrvcInd": false,
+                "ScheduleORequiredInd": true,
+                "ProfessionalFundraisingInd": false,
+                "PayPremiumsPrsnlBnftCntrctInd": false,
+                "TotalAssetsBOYAmt": 110533,
+                "OperateHospitalInd": false,
+                "CYProgramServiceRevenueAmt": 159969,
+                "EmploymentTaxReturnsFiledInd": true,
+                "QuidProQuoContributionsInd": false,
+                "DisregardedEntityInd": false,
+                "TotalFunctionalExpensesGrp": {
+                    "ProgramServicesAmt": 159700,
+                    "FundraisingAmt": 0,
+                    "TotalAmt": 189623,
+                    "ManagementAndGeneralAmt": 29923
+                },
+                "InterestGrp": {
+                    "ProgramServicesAmt": 1301,
+                    "TotalAmt": 1301
+                },
+                "TaxablePartyNotificationInd": false,
+                "ProgramServiceRevenueGrp": {
+                    "Desc": "ADOPTION FEES",
+                    "BusinessCd": 624110,
+                    "TotalRevenueColumnAmt": 159969,
+                    "RelatedOrExemptFuncIncomeAmt": 159969
+                },
+                "NondeductibleContributionsInd": false,
+                "ForeignActivitiesInd": false,
+                "OfficeExpensesGrp": {
+                    "ProgramServicesAmt": 3656,
+                    "TotalAmt": 3656
+                },
+                "TotalNetAssetsFundBalanceGrp": {
+                    "EOYAmt": 66544,
+                    "BOYAmt": 84412
+                },
+                "LandBldgEquipBasisNetGrp": {
+                    "EOYAmt": 58373,
+                    "BOYAmt": 67195
+                },
+                "ForeignFinancialAccountInd": false,
+                "TotalContributionsAmt": 11786,
+                "CYTotalExpensesAmt": 189623,
+                "UnsecuredNotesLoansPayableGrp": {"EOYAmt": 94900},
+                "CYSalariesCompEmpBnftPaidAmt": 91079,
+                "BusinessRlnWith35CtrlEntInd": false,
+                "GroupReturnForAffiliatesInd": false,
+                "NetUnrelatedBusTxblIncmAmt": 0,
+                "CYOtherExpensesAmt": 98544,
+                "TotalCompGreaterThan150KInd": false,
+                "ScheduleBRequiredInd": false,
+                "CYBenefitsPaidToMembersAmt": 0,
+                "TrnsfrExmptNonChrtblRltdOrgInd": false,
+                "PYExcessBenefitTransInd": false,
+                "FederalGrantAuditRequiredInd": false,
+                "ProhibitedTaxShelterTransInd": false,
+                "ConservationEasementsInd": false,
+                "EngagedInExcessBenefitTransInd": false,
+                "ActivityOrMissionDesc": "TO PROVIDE ADOPTION PLACEMENT FOR MOTHERS IN NC WHO PLACE THEIR BABY UP FOR ADOPTION WITH APPROVED ADOPTIVE PARENTS. SUPPORT IS PROVIDED TO BIRTH MOTHERS BEFORE AND AFTER THE ADOPTION PROCESS.",
+                "GrantsToIndividualsInd": false,
+                "LandBldgEquipAccumDeprecAmt": 119217,
+                "EmployeeCnt": 2,
+                "TravelGrp": {
+                    "ProgramServicesAmt": 2236,
+                    "TotalAmt": 2236
+                },
+                "BusinessRlnWithFamMemInd": false,
+                "GrossReceiptsAmt": 171755,
+                "ForeignOfficeInd": false,
+                "PYOtherExpensesAmt": 86996,
+                "CompensationFromOtherSrcsInd": false,
+                "CompCurrentOfcrDirectorsGrp": {
+                    "ProgramServicesAmt": 55200,
+                    "TotalAmt": 55200
+                },
+                "OccupancyGrp": {
+                    "ProgramServicesAmt": 22283,
+                    "TotalAmt": 22283
+                },
+                "PYContributionsGrantsAmt": 10083,
+                "FormationYr": 2005,
+                "MaterialDiversionOrMisuseInd": false,
+                "PYTotalExpensesAmt": 180490,
+                "NoDonorRestrictionNetAssetsGrp": {
+                    "EOYAmt": 66544,
+                    "BOYAmt": 84412
+                },
+                "TotalOtherCompensationAmt": 0,
+                "LoanOutstandingInd": false,
+                "DonorRstrOrQuasiEndowmentsInd": false,
+                "MembersOrStockholdersInd": false,
+                "CollectionsOfArtInd": false,
+                "DeductibleNonCashContriInd": false,
+                "MethodOfAccountingCashInd": "X",
+                "TotReportableCompRltdOrgAmt": 0,
+                "VotingMembersIndependentCnt": 2,
+                "IRPDocumentW2GCnt": 0,
+                "DecisionsSubjectToApprovaInd": false,
+                "Form990PartVIISectionAGrp": [
+                    {
+                        "PersonNm": "MARK J BERGERON",
+                        "OfficerInd": "X",
+                        "AverageHoursPerWeekRltdOrgRt": 0,
+                        "AverageHoursPerWeekRt": 55,
+                        "ReportableCompFromOrgAmt": 0,
+                        "ReportableCompFromRltdOrgAmt": 0,
+                        "TitleTxt": "VICE PRES",
+                        "OtherCompensationAmt": 0
+                    },
+                    {
+                        "PersonNm": "JANET BERGERON",
+                        "OfficerInd": "X",
+                        "AverageHoursPerWeekRltdOrgRt": 0,
+                        "AverageHoursPerWeekRt": 65,
+                        "ReportableCompFromOrgAmt": 55200,
+                        "ReportableCompFromRltdOrgAmt": 0,
+                        "TitleTxt": "PRESIDENT",
+                        "OtherCompensationAmt": 0
+                    }
+                ],
+                "TotalReportableCompFromOrgAmt": 55200,
+                "MinutesOfGoverningBodyInd": true,
+                "DescribedInSection501c3Ind": {
+                    "referenceDocumentId": "990A",
+                    "content": true
+                },
+                "OtherLiabilitiesGrp": {
+                    "EOYAmt": 4456,
+                    "BOYAmt": 4954
+                },
+                "TotalLiabilitiesEOYAmt": 114475,
+                "ReportOtherLiabilitiesInd": {
+                    "referenceDocumentId": "990D",
+                    "content": true
+                },
+                "AllOtherContributionsAmt": 11786,
+                "ReportInvestmentsOtherSecInd": false,
+                "MinutesOfCommitteesInd": true,
+                "RcvFndsToPayPrsnlBnftCntrctInd": false,
+                "Form8899Filedind": false,
+                "LobbyingActivitiesInd": false,
+                "BusinessRlnWithOrgMemInd": {
+                    "referenceDocumentId": "990L",
+                    "content": true
+                },
+                "IndoorTanningServicesInd": false,
+                "OtherSalariesAndWagesGrp": {
+                    "ProgramServicesAmt": 28068,
+                    "TotalAmt": 28068
+                },
+                "Desc": "TO PROVIDE ADOPTION PLACEMENT FOR CHILDREN AND FACILITATE ADOPTION BETWEEN THEM AND ADULTS IN THE UNITED STATES.",
+                "IndependentVotingMemberCnt": 2,
+                "CYRevenuesLessExpensesAmt": -17868,
+                "SubjectToProxyTaxInd": false,
+                "TerminateOperationsInd": false,
+                "MoreThan5000KToOrgInd": false,
+                "ConflictOfInterestPolicyInd": false,
+                "CompensationProcessOtherInd": false,
+                "DepreciationDepletionGrp": {
+                    "TotalAmt": 8822,
+                    "ManagementAndGeneralAmt": 8822
+                },
+                "TotalAssetsEOYAmt": 181019,
+                "FundraisingActivitiesInd": false,
+                "TotalRevenueGrp": {
+                    "ExclusionAmt": 0,
+                    "TotalRevenueColumnAmt": 171755,
+                    "RelatedOrExemptFuncIncomeAmt": 159969,
+                    "UnrelatedBusinessRevenueAmt": 0
+                },
+                "SchoolOperatingInd": false,
+                "OtherExpensesGrp": [
+                    {
+                        "Desc": "ADOPTION FEES",
+                        "ProgramServicesAmt": 22130,
+                        "TotalAmt": 22130
+                    },
+                    {
+                        "Desc": "VEHICLE EXPENSE",
+                        "ProgramServicesAmt": 10553,
+                        "TotalAmt": 10553
+                    },
+                    {
+                        "Desc": "TELEPHONE",
+                        "ProgramServicesAmt": 3190,
+                        "TotalAmt": 3190
+                    }
+                ],
+                "SavingsAndTempCashInvstGrp": {
+                    "EOYAmt": 1526,
+                    "BOYAmt": 1525
+                },
+                "TypeOfOrganizationCorpInd": "X",
+                "NetAssetsOrFundBalancesEOYAmt": 66544,
+                "GrantToRelatedPersonInd": false,
+                "NetAssetsOrFundBalancesBOYAmt": 84412,
+                "CYContributionsGrantsAmt": 11786,
+                "FamilyOrBusinessRlnInd": true,
+                "Form1098CFiledInd": false,
+                "PrincipalOfficerNm": "MARK J BERGERON",
+                "CYTotalProfFndrsngExpnsAmt": 0,
+                "TotLiabNetAssetsFundBalanceGrp": {
+                    "EOYAmt": 181019,
+                    "BOYAmt": 110533
+                },
+                "LegalDomicileStateCd": "NY",
+                "OrganizationFollowsFASB117Ind": "X",
+                "GamingActivitiesInd": false,
+                "ReconcilationRevenueExpnssAmt": -17868,
+                "TotalLiabilitiesGrp": {
+                    "EOYAmt": 114475,
+                    "BOYAmt": 26121
+                },
+                "CYInvestmentIncomeAmt": 0,
+                "InfoInScheduleOPartVIInd": "X",
+                "PartialLiquidationInd": false,
+                "GoverningBodyVotingMembersCnt": 2,
+                "PYTotalRevenueAmt": 170397,
+                "InsuranceGrp": {
+                    "TotalAmt": 19651,
+                    "ManagementAndGeneralAmt": 19651
+                },
+                "OtherChangesInNetAssetsAmt": 0,
+                "SignificantChangeInd": false,
+                "SubjectToExcsTaxNetInvstIncInd": false,
+                "TotalLiabilitiesBOYAmt": 26121,
+                "FormerOfcrEmployeesListedInd": false,
+                "CYGrantsAndSimilarPaidAmt": 0,
+                "MissionDesc": "TO PROVIDE ADOPTION PLACEMENT FOR MOTHERS IN NC WHO PLACE THEIR BABY UP FOR ADOPTION WITH APPROVED ADOPTIVE PARENTS. SUPPORT IS PROVIDED TO BIRTH MOTHERS BEFORE AND AFTER THE ADOPTION PROCESS.",
+                "DonorAdvisedFundInd": false,
+                "OfficerMailingAddressInd": false,
+                "FSAuditedInd": false,
+                "Organization501c3Ind": "X",
+                "IRPDocumentCnt": 0,
+                "SubjToTaxRmnrtnExPrchtPymtInd": false,
+                "IndivRcvdGreaterThan100KCnt": 0,
+                "LandBldgEquipCostOrOtherBssAmt": 177590,
+                "ScheduleJRequiredInd": false,
+                "PoliticalCampaignActyInd": false,
+                "DelegationOfMgmtDutiesInd": false,
+                "InformationTechnologyGrp": {
+                    "ProgramServicesAmt": 3272,
+                    "TotalAmt": 3272
+                },
+                "IncludeFIN48FootnoteInd": false,
+                "PayrollTaxesGrp": {
+                    "ProgramServicesAmt": 7811,
+                    "TotalAmt": 7811
+                },
+                "DeductibleArtContributionInd": false,
+                "BooksInCareOfDetail": {
+                    "PersonNm": "MARK J BERGERON",
+                    "PhoneNum": 9104313372,
+                    "USAddress": {
+                        "ZIPCd": 28401,
+                        "CityNm": "WILMINGTON",
+                        "StateAbbreviationCd": "NC",
+                        "AddressLine1Txt": "254 NO FRONT ST STE 200"
+                    }
+                },
+                "CYTotalRevenueAmt": 171755,
+                "CYOtherRevenueAmt": 0,
+                "PYProgramServiceRevenueAmt": 160314,
+                "ReportProgramRelatedInvstInd": false,
+                "CreditCounselingInd": false,
+                "IndependentAuditFinclStmtInd": false,
+                "OtherAssetsTotalGrp": {
+                    "EOYAmt": 800,
+                    "BOYAmt": 800
+                },
+                "TotalEmployeeCnt": 2,
+                "TaxExemptBondsInd": false,
+                "ActivitiesConductedPrtshpInd": false,
+                "TotalProgramServiceExpensesAmt": 159700,
+                "AccountantCompileOrReviewInd": false,
+                "Form990ProvidedToGvrnBodyInd": true,
+                "DocumentRetentionPolicyInd": true,
+                "LocalChaptersInd": false,
+                "documentId": "IRS990",
+                "CYTotalFundraisingExpenseAmt": 0,
+                "ConsolidatedAuditFinclStmtInd": false,
+                "USAddress": {
+                    "ZIPCd": 28401,
+                    "CityNm": "WILMINGTON",
+                    "StateAbbreviationCd": "NC",
+                    "AddressLine1Txt": "254 NO FRONT ST STE 200"
+                },
+                "ElectionOfBoardMembersInd": false
+            }
+        }
+    }}
+]}
