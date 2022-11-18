@@ -70,8 +70,11 @@ public class MyKDS {
 				FileInputStream fis = new FileInputStream(theFile);
 			    data = IOUtils.toString(fis, "UTF-8");
 			    xmlString = data;
+			    JSONObject json = XML.toJSONObject(xmlString);
 			    //data += "\n";
-				m9.setXmlText(xmlString);
+				//m9.setXmlText(xmlString);
+				String jsonString = json.toString(4);
+				m9.setJsonText(jsonString);
 				byte[] bytes = m9.toJsonAsBytes();
 				
 				sendTestData(m9, kinesisClient, streamName);
@@ -115,7 +118,7 @@ public class MyKDS {
 			// System.out.println("here in put record...");		
 			DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
 			LocalDateTime now = LocalDateTime.now();
-			System.out.println(dtf.format(now)); //2016/11/16 12:08:43
+			System.out.println(dtf.format(now)); 
 			PutRecordResponse prr = kinesisClient.putRecord(request);
 			System.out.println("response shard is: " + prr.shardId());
 			System.out.println("response seq is: " + prr.sequenceNumber());

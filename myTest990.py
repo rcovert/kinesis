@@ -23,29 +23,43 @@ def lambda_handler(event, context):
         data = json.loads(file_content)
         # get the xml payload off of the s3 document
         
-        xmlString = data["xmlText"]
+        #xmlString = data["xmlText"]
+        jsonString = data["jsonText"]
+        jsonDict = json.loads(jsonString)
+        # print(jsonString)
+        # now parse the json for key values to store in dynamo
+        theEIN = jsonDict["Return"]["ReturnHeader"]["Filer"]["EIN"]
+        print(theEIN)
+        theFilerName = jsonDict["Return"]["ReturnHeader"]["Filer"]["BusinessName"]["BusinessNameLine1Txt"]
+        print(theFilerName)
+        theTXPeriod = jsonDict["Return"]["ReturnHeader"]["TaxPeriodEndDt"]
+        print(theTXPeriod)
+        ct = datetime.now()
+        date_time = ct.strftime("%m/%d/%Y, %H:%M:%S")
+        
         # now parse the xml for key values to store in dynamo
-        root = ET.fromstring(xmlString)
-        ein=root.find(".//{http://www.irs.gov/efile}EIN")
-        print(ein.text)
-        theEIN = ein.text
-        filer=root.find(".//{http://www.irs.gov/efile}Filer")
-        busname=filer.find(".//{http://www.irs.gov/efile}BusinessName")
-        filername=busname.find(".//{http://www.irs.gov/efile}BusinessNameLine1Txt")
-        print(filername.text)
-        theFilerName = filername.text
-        txperiod=root.find('.//{http://www.irs.gov/efile}TaxPeriodEndDt')
-        print(txperiod.text)
-        theTXPeriod = txperiod.text
+        #root = ET.fromstring(xmlString)
+        #ein=root.find(".//{http://www.irs.gov/efile}EIN")
+        #print(ein.text)
+        #theEIN = ein.text
+        #filer=root.find(".//{http://www.irs.gov/efile}Filer")
+        #busname=filer.find(".//{http://www.irs.gov/efile}BusinessName")
+        #filername=busname.find(".//{http://www.irs.gov/efile}BusinessNameLine1Txt")
+        #print(filername.text)
+        #theFilerName = filername.text
+        #txperiod=root.find('.//{http://www.irs.gov/efile}TaxPeriodEndDt')
+        #print(txperiod.text)
+        #theTXPeriod = txperiod.text
         
         # now put object into dynamo 
-        # first create a uniqu id
+        # first create a unique id
+        dein = str(theEIN)
         theUUID = data["uuid"]
         data = dyn.put_item(
             TableName='test-990',
             Item={
                 'ein': {
-                 'S': theEIN
+                 'S': dein
                 },
                 'filername': {
                  'S': theFilerName
@@ -61,6 +75,9 @@ def lambda_handler(event, context):
                 },
                 'uuid': {
                   'S' : theUUID
+                },
+                'last_update': {
+                  'S' : date_time
                 }
             }
         )
@@ -81,12 +98,12 @@ def lambda_handler(event, context):
         x += '"detail": {'
         x += '"instanceid": '
         x += "\"" + theUUID + "\"" + ','
-        x += '"state": "terminated"'
+        x += '"state": "initial-001"'
         x += '}'
         x += '}'
 
-        y = json.dumps(x)
-        print(y)
+        #y = json.dumps(x)
+        #print(y)
         # finally - publish the event to the topic
         # the event triggers a subscription for the next action on the content
         response = sns.publish (
