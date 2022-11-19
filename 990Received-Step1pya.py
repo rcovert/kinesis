@@ -13,6 +13,7 @@ dyn2 = boto3.resource('dynamodb')
 
 def lambda_handler(event, context):
     #print("Received event: " + json.dumps(event, indent=2))
+    # pull the message off of the subscribed sns topic
     message = event['Records'][0]['Sns']['Message']
     print("From SNS: " + message)
     
@@ -39,9 +40,9 @@ def lambda_handler(event, context):
         # now grab the doc from s3
         file_content = s3.get_object(
             Bucket='test990-s3', Key=tkey)["Body"].read()
-        print(file_content)
+        # print(file_content)
         
-        # now call a web service
+        # now call a web service with the document to be filtered
         # API call - setup the body to hold the return data to be sent
         response = requests.get("http://api.openweathermap.org/data/2.5/forecast?q=Washington,us&APPID=53d6430c1eccacb54e827045d1aee3d3")
         #print(response)
@@ -50,6 +51,8 @@ def lambda_handler(event, context):
         
         # now update the dynamo record with new meta
         # now update the state of the object in dynamo with a state based results array
+        ct = datetime.now()
+        date_time = ct.strftime("%m/%d/%Y, %H:%M:%S")
         table = dyn2.Table('test-990')
         resp = table.update_item(
             Key={
@@ -57,11 +60,11 @@ def lambda_handler(event, context):
             },
             UpdateExpression="set #last_update=:r, #filter_results=:a",
             ExpressionAttributeNames={
-                '#last_update': 'last.update',
+                '#last_update': 'last_update',
                 '#filter_results': 'filter.results'
             },
             ExpressionAttributeValues={
-                ':r': "11/17/2022",
+                ':r': date_time,
                 ':a': ["Filter A", "G Score: .876", "Y Score: .654"]
             },
             ReturnValues="UPDATED_NEW"

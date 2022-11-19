@@ -21,7 +21,7 @@ def lambda_handler(event, context):
         file_content = s3.get_object(Bucket=bucket, Key=key)["Body"].read().decode('utf-8') 
         # get the xml out of the json doc on s3
         data = json.loads(file_content)
-        # get the xml payload off of the s3 document
+        # get the json payload off of the s3 document
         
         #xmlString = data["xmlText"]
         jsonString = data["jsonText"]
@@ -37,21 +37,7 @@ def lambda_handler(event, context):
         ct = datetime.now()
         date_time = ct.strftime("%m/%d/%Y, %H:%M:%S")
         
-        # now parse the xml for key values to store in dynamo
-        #root = ET.fromstring(xmlString)
-        #ein=root.find(".//{http://www.irs.gov/efile}EIN")
-        #print(ein.text)
-        #theEIN = ein.text
-        #filer=root.find(".//{http://www.irs.gov/efile}Filer")
-        #busname=filer.find(".//{http://www.irs.gov/efile}BusinessName")
-        #filername=busname.find(".//{http://www.irs.gov/efile}BusinessNameLine1Txt")
-        #print(filername.text)
-        #theFilerName = filername.text
-        #txperiod=root.find('.//{http://www.irs.gov/efile}TaxPeriodEndDt')
-        #print(txperiod.text)
-        #theTXPeriod = txperiod.text
-        
-        # now put object into dynamo 
+        # now put object meta into dynamo 
         # first create a unique id
         dein = str(theEIN)
         theUUID = data["uuid"]

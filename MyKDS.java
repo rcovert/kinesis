@@ -108,14 +108,10 @@ public class MyKDS {
 
 		// System.out.println("Putting test: " + xyz);
 		UUID uuid = UUID.randomUUID();
-		PutRecordRequest request = PutRecordRequest.builder().partitionKey(uuid.toString()) // We use the ticker symbol
-																							// as the partition key,
-																							// explained in the
-																							// Supplemental Information
-																							// section below.
+		PutRecordRequest request = PutRecordRequest.builder().partitionKey(uuid.toString()) // We use the uuid as the partition key,
 				.streamName(streamName).data(SdkBytes.fromByteArray(bytes)).build();
 		try {
-			// System.out.println("here in put record...");		
+			// put the record on the stream 	
 			DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
 			LocalDateTime now = LocalDateTime.now();
 			System.out.println(dtf.format(now)); 
