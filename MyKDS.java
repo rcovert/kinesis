@@ -28,7 +28,6 @@ import org.json.*;
 public class MyKDS {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		String streamName = "Test990-kds";
 		Region region = Region.US_EAST_1;
@@ -39,13 +38,12 @@ public class MyKDS {
 		validateStream(kinesisClient, streamName);
 		sendTestData(kinesisClient, streamName);
 		kinesisClient.close();
-
 	}
 
 	public static void sendTestData(KinesisClient kinesisClient, String streamName) {
 
 		try {
-			// Repeatedly send xml documents with a 100 milliseconds wait in between.
+			// Repeatedly send json documents 
 
 			File folder = new File("./input");
 			File[] listOfFiles = folder.listFiles();
@@ -68,11 +66,9 @@ public class MyKDS {
 				theFile = listOfFiles[x];
 				
 				FileInputStream fis = new FileInputStream(theFile);
-			    data = IOUtils.toString(fis, "UTF-8");
-			    xmlString = data;
+				xmlString = IOUtils.toString(fis, "UTF-8");
 			    JSONObject json = XML.toJSONObject(xmlString);
-			    //data += "\n";
-				//m9.setXmlText(xmlString);
+			    
 				String jsonString = json.toString(4);
 				m9.setJsonText(jsonString);
 				byte[] bytes = m9.toJsonAsBytes();
@@ -100,7 +96,7 @@ public class MyKDS {
 
 		byte[] bytes = xyz.toJsonAsBytes();
 
-// The bytes could be null if there is an issue with the JSON serialization by the Jackson JSON library.
+		// The bytes could be null if there is an issue with the JSON serialization by the Jackson JSON library.
 		if (xyz == null) {
 			System.out.println("Could not get bytes for test");
 			return;
